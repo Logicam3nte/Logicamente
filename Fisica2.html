@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- link per riferirsi al file css-->
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style_chi_siamo.css">
+
+    <title>Logicamente</title>
+
+    <!-- link per riferirsi all'immagine da mettere come icona del sito --> 
+    <link rel="icon" href="images/Logicamente-little.svg" type="image/icon type">
+
+    <!-- meta usato per definire nel file css le modifiche sel sito  --> 
+    <!-- in base alla grandezza di visualizzazione (versione Desktop o mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- per titoli grossi -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+  <!--script usato per la libreria LATEX-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--link e script usato per i bottoni social media sharing-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+</head>
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU -->
+<!-- ********************************-->
+
+  <div class="wrapper">
+  <a href="index.html"><img id="logo" class="position-logo" src="images/Logicamente.svg" > 
+  <!--LOGO-->
+  </div>
+
+
+<div id="hormenu">
+  <ul >  
+
+    <li> 
+      <a id="home" href="index.html">Home </a> 
+    </li>
+
+    <li> <a id="matematica" href="Matematica.html"> Matematica </a>   
+      <ul> 
+        <li><a id="analisi" href="Analisi1.html">Analisi I</a></li>
+        <li><a id="analisi" href="Analisi2.html">Analisi II</a></li>
+      </ul> 
+    </li>
+
+    <li> <a id="fisics" href="Fisica.html"> Fisica </a>
+      <ul> 
+        <li><a id="fisica" href="Fisica1.html">Fisica I</a></li>
+        <li><a id="fisica" href="Fisica2.html">Fisica II</a></li>
+      </ul> 
+    </li>
+
+    <li> 
+      <a id="altro"href="Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a id="chisiamo" href="Chi_siamo.html" > Chi siamo </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+
+    <li> 
+      <a id="contatti" href="Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+   
+  </ul>
+</div> 
+
+
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--********************-->
+<!--*****QUI INIZIA*****-->
+<!--barra di navigazione-->
+<!--********************-->
+<!--
+<form id="search_form" action="/Matematica.html" method="post">
+  <input id="search" type="text" list="suggestion" size="30px" name="keyword" placeholder=" Search...">
+    <datalist id="suggestion">
+     <option>Matematica</option>
+      <option>AnalisiI</option>
+      <option>AnalisiII</option>
+      <option>Fisica</option>
+      <option>FisicaI</option>
+      <option>FisicaII</option>
+    </datalist>
+</form>
+
+-->
+
+<!--
+
+<div class="wrapper2">
+  <img href="#" class="position" id="searchicon" src="/images/outline_search_black_24dp.png">
+</div>
+-->
+
+
+
+
+
+
+<!--tasto info-->
+<div class="wrapper2">
+  <a href="privacy.html" TARGET="new target"><img class="position" id="accedi"  src="images/help_black_24dpv2.svg"></a>
+</div>
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU2 -->
+<!-- ********************************-->
+<div id="hormenu2">
+  <ul >  
+
+    <li> 
+      <a id="home" href="index.html">Home </a> 
+    </li>
+
+    <li> 
+      <a id="Matematica" href="Matematica.html"> Matematica </a>      
+    </li>
+
+    <li> 
+      <a  href="Fisica.html"> Fisica </a>
+    </li>
+
+    <li> 
+      <a  href="Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a class="chi_siamo" href="Chi_siamo.html" > Chi&nbspsiamo</a>
+    </li>
+
+
+
+    <li> 
+      <a  href="Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+  </ul>
+</div>  
+
+
+
+
+
+<!--hamburger-->
+<a  href="javascript:void(0);" onclick="myFunction()" class="icon" > <img class="position" id="hamburger" src="images/outline_menu_black_24dp.png"></a>
+ 
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("hormenu2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+</script>
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU2 -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- *******************************************************************************************************-->
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL CORPO DELLA PAGINA -->
+<!-- ********************************-->
+
+<body>
+
+  <center>
+    <br>
+    <hr>
+    <h1 style="font-size: 60px;">FISICA II</h1>
+    <hr>
+    <br>
+  </center>
+
+  <h2 style="font-size: 170%; margin: 20px;">CAMPO E FORZA ELETTROSTATICA:</h2>
+
+<p style="font-size: 150%;color: #2e4768;">●<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/Storia_e_Proprietà_dell'_Elettrostatica.html">Storia e Proprietà dell' Elettrostatica</a></p>
+  <p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/struttura_elettrica_della_materia.html">Struttura elettrica della materia</a></p>
+  <p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/legge_di_coulomb.html">Legge di Coulomb e misura carica elettrica</a></p>
+  
+
+    <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/calcolo_carica_elettrica.html">Calcolo carica elettrica</a></h3>
+
+
+
+  <p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/campo_elettrostatico.html">Campo Elettrostatico</a></p>
+ 
+
+
+    <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat;  color: #2e4768">-<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/campo_carica_elettrica.html">Campo Elettrostatico di una carica elettrica</a></h3>
+    <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat;  color: #2e4768">-<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/piano_indefinito_carico.html">Campo Elettrostatico di un piano carico ed indefinito</a></h3>
+  
+
+
+  <p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/campo_elettrostatico/moto_di_carica_in_campo_elettrostatico.html">Moto di una carica in un campo elettrostatico</a></p>
+
+
+
+
+
+
+
+
+<br><br><br><br><br><hr><br><br>
+
+
+
+
+
+
+
+
+    <h2 style="font-size: 170%; margin: 20px;">LEGGE DI GAUSS:</h2>
+
+
+    <p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/flusso_e_th_gauss.html">Flusso del campo elettrostatico e legge di Gauss</a></p>
+    <p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/dimostrazione_gauss.html">Dimostrazione legge di Gauss</a></p>
+    <p style="font-size: 150%;color: #2e4768">●Applicazioni legge di Gauss:</p>
+      
+    
+      <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-1)<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/gauss_campo_carica_uniforme.html">Campo elettrostatico generato da distribuzione di carica uniforme e superficiale sferica </a></h3>
+      <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-2)<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/gauss_campo_volume_sferico.html">Campo elettrostatico generato da volume sferico carico uniformemente</a></h3>
+      <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-3)<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/gauss_campo_carica_cilindrica.html">Campo elettrostatico generato da distribuzioni di carica cilindrica</a></h3>
+      <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-4)<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/gauss_campo_piano_indefinito.html">Campo elettrostatico generato da un piano indefinito carico uniformemente</a></h3>
+    
+    
+      <p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/considerazioni_eq_stabile.html">Considerazioni equilibrio stabile di carica in un campo elettrostatico</a></p>
+    <p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/legge_gauss/gauss_differenziale.html">Legge di gauss in forma differenziale e teorema della divergenza</a></p>
+     
+    
+    
+    
+
+    
+<br><br><br><br><br><hr><br><br> 
+    
+
+
+
+
+
+<h2 style="font-size: 170%; margin: 20px;">LAVORO ELETTRICO E POTENZIALE ELETTROSTATICO:</h2>
+
+
+<p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/fem.html">Lavoro della forza elettrica e forza elettromotrice (f.e.m.) </a></p>
+<p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/potenziale_elettrostatico.html">Calcolo potenziale elettrostatico</a></p>
+  <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio_potenziale.html">Esercizio sul calcolo del potenziale elettrostatico </a></h3>
+<p style="font-size: 150%;color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/energia_potenziale_elettrostatica.html">Energia potenziale elettrostatica</a></p>
+  <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio2_potenziale.html">Esercizio sul calcolo dell' energia potenziale elettrostatica</a></h3>
+<p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/moto_energia.html">Moto di carica in campo elettrostatico e conservazione dell'energia</a></p>
+  <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio3_conservazione_energia.html">Esercizio 1 sulla conservazione dell'energia</a></h3>
+
+
+  <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio4_conservazione_energia.html">Esercizio 2 sulla conservazione dell'energia</a></h3>
+  <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio5_conservazione_energia.html">Esercizio 3 sulla conservazione dell'energia</a></h3>
+  <h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio6_conservazione_energia.html">Esperimento di Rutherford</a></h3>
+ 
+
+
+ 
+<p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/modello_bohr.html">Modello di Bohr</a></p>
+ 
+<p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/gradiente_potenziale.html.html">Campo elettrostatico come gradiente del potenziale</a></p>
+
+
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio1.html">Esercizio 1 </a></h3>
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio2.html">Esercizio 2 </a></h3>
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio3.html">Esercizio 3</a></h3>
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio4.html">Esercizio 4</a></h3>
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio5.html">Esercizio 5</a></h3>
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio6.html">Esercizio 6</a></h3>
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio7.html">Esercizio 7</a></h3>
+
+
+
+
+
+<p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/superfici_equipotenziali.html">Superfici Equipotenziali</a></p>
+<p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/rotore_campo_vettoriale.html">Rotore campo vettoriale</a></p>
+<p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/dipolo_elettrico.html">Dipolo elettrico</a></p>
+<p style="font-size: 150%; color: #2e4768">●<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/forza_dipolo_elettrico.html">Forza di dipolo elettrico in un campo elettrostatico</a></p>
+
+<h3 class="esercizi" style="font-size: 100%; font-family: Montserrat; color: #2e4768; ">-<a style="color: #2e4768" href="lezioni_fisica2/lavoro_e_potenziale_elettrostatico/esercizio_forza_dipolo.html">Esercizio forza di dipolo</a></h3>
+
+
+
+<br><br><br><br><br><br><br><br> 
+
+ 
+ 
+</body>
+
+
+<!-- ********************************-->
+<!--QUI E' FINITA LA PAGINA -->
+<!-- ********************************-->
+
+
+
+
+<footer style="background-color:#3d5a8000"> 
+
+  <hr>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+
+      <a href="index.html"><img  style=" position: relative; z-index: 999; width: 220px; top: -50px;" src="images/Logicamente.svg" ></a>
+      <!--LOGOSOTTO-->
+
+
+    <h3 style="font-family: 'Montserrat'; position: relative; top: -30px;">Se ti piace questa pagina puoi condividerla su:</h3>
+    </center>
+
+  
+      
+      <div class="share-btn-container">
+
+        <a id="facebook" href="#" class="facebook-btn"> 
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a id="twitter" href="#"class="twitter-btn"> 
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a id="instagram" href="#"class="instagram-btn"> 
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a id="telegram" href="https://telegram.me/share/url?url=" onclick="window.open('https://telegram.me/share/url?url=='+encodeURIComponent(location.href)+'&bodytext=&tags=&text='+encodeURIComponent(document.title));return false;"rel="nofollow" title="invia con telegram">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a id="whatsapp"href="#"class="whatsapp-btn"> 
+          <i class="fab fa-whatsapp"></i>
+        </a>
+    
+      </div>
+  
+   
+ <!--
+  <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-share-url="https://core.telegram.org/widgets/share"></script>
+ -->
+ 
+  <script src="main.js"></script>
+
+
+  
+
+
+
+  <div class="hormenufooter">
+    <ul >  
+  
+      <li> 
+        <a id="home" href="index.html">Home </a> 
+      </li>
+  
+      <li> 
+        <a id="altro"href="Altro.html" > Altro</a>
+      </li>
+  
+      <li> 
+        <a id="contatti" href="Contatti.html"> Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+      
+      <li> 
+        <a id="termini_condizioni" href="termini_condizioni.html" TARGET="new target">  Termini&nbspe&nbspcondizioni </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+      <li> 
+        <a id="privacy_policy" href="privacy.html" TARGET="new target"> Privacy&nbspPolicy </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+    </ul>
+  </div> 
+
+
+
+
+
+
+</footer>
+
+
+
+</html>

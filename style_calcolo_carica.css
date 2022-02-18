@@ -1,0 +1,26 @@
+
+ .ridimensionamento_carica{ 
+    width: 30%;
+    float: right;
+    padding-left: 30px;
+    margin-right: 20%;
+  
+}
+
+
+
+@media (max-width: 1300px) {
+    
+    .ridimensionamento_carica{ 
+        margin-right: 5%; 
+    }
+    
+}
+
+
+
+@media (max-width: 480px) { 
+    .ridimensionamento_carica { 
+        margin-right: 4%;
+    }
+}

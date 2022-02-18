@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- link per riferirsi al file css-->
+    <link rel="stylesheet" href="../../style1.css">
+    <link rel="stylesheet" href="../../style_calcolo_carica.css">
+ 
+
+    <title>Logicamente</title>
+
+    <!-- link per riferirsi all'immagine da mettere come icona del sito --> 
+    <link rel="icon" href="../../images/Logicamente-little.svg" type="image/icon type">
+
+    <!-- meta usato per definire nel file css le modifiche sel sito  --> 
+    <!-- in base alla grandezza di visualizzazione (versione Desktop o mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- per titoli grossi -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+  <!--script usato per la libreria LATEX-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--link e script usato per i bottoni social media sharing-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+</head>
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU -->
+<!-- ********************************-->
+
+  <div class="wrapper">
+  <a href="../../index.html"><img id="logo" class="position-logo" src="../../images/Logicamente.svg" > 
+  <!--LOGO-->
+  </div>
+
+
+<div id="hormenu">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> <a id="matematica" href="../../Matematica.html"> Matematica </a>   
+      <ul> 
+        <li><a id="analisi" href="../../Analisi1.html">Analisi I</a></li>
+        <li><a id="analisi" href="../../Analisi2.html">Analisi II</a></li>
+      </ul> 
+    </li>
+
+    <li> <a id="fisics" href="../../Fisica.html"> Fisica </a>
+      <ul> 
+        <li><a id="fisica" href="../../Fisica1.html">Fisica I</a></li>
+        <li><a id="fisica" href="../../Fisica2.html">Fisica II</a></li>
+      </ul> 
+    </li>
+
+    <li> 
+      <a id="altro"href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a id="chisiamo" href="../../Chi_siamo.html" > Chi siamo </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+
+    <li> 
+      <a id="contatti" href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+   
+  </ul>
+</div> 
+
+
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--********************-->
+<!--*****QUI INIZIA*****-->
+<!--barra di navigazione-->
+<!--********************-->
+<!--
+<form id="search_form" action="/Matematica.html" method="post">
+  <input id="search" type="text" list="suggestion" size="30px" name="keyword" placeholder=" Search...">
+    <datalist id="suggestion">
+     <option>Matematica</option>
+      <option>AnalisiI</option>
+      <option>AnalisiII</option>
+      <option>Fisica</option>
+      <option>FisicaI</option>
+      <option>FisicaII</option>
+    </datalist>
+</form>
+
+-->
+
+<!--
+
+<div class="wrapper2">
+  <img href="#" class="position" id="searchicon" src="/images/outline_search_black_24dp.png">
+</div>
+-->
+
+
+
+
+
+
+<!--tasto info-->
+<div class="wrapper2">
+  <a href="../../privacy.html" TARGET="new target"><img class="position" id="accedi"  src="../../images/help_black_24dpv2.svg"></a>
+</div>
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU2 -->
+<!-- ********************************-->
+<div id="hormenu2">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> 
+      <a id="Matematica" href="../../Matematica.html"> Matematica </a>      
+    </li>
+
+    <li> 
+      <a  href="../../Fisica.html"> Fisica </a>
+    </li>
+
+    <li> 
+      <a  href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a class="chi_siamo" href="../../Chi_siamo.html" > Chi&nbspsiamo</a>
+    </li>
+
+
+
+    <li> 
+      <a  href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+  </ul>
+</div>  
+
+
+
+
+
+<!--hamburger-->
+<a  href="javascript:void(0);" onclick="myFunction()" class="icon" > <img class="position" id="hamburger" src="../../images/outline_menu_black_24dp.png"></a>
+ 
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("hormenu2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+</script>
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU2 -->
+<!-- ********************************-->
+
+
+
+
+
+
+<!-- *******************************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL CORPO DELLA PAGINA -->
+<!-- ********************************-->
+
+<body style="background-color:rgba(0, 0, 0, 0)">
+  
+
+    <center>
+        <br>
+        <hr>
+        <h2 style=" margin: 20px;">Flusso Elettrico e Teorema di Gauss</h2>
+        <hr>
+        <br>
+      </center>
+
+
+      <img  class="ridimensionamento_carica"  src="../../images/gauss1.svg"  alt="Not found!">
+
+
+      <p>
+      Per introdurre la legge di Gauss bisogna intanto definire il flusso del campo elettrostatico attraverso una superficie infinitesima.
+      In figura è mostrata una superficie infinitesima \(d\Sigma\) che viene attraversata da un campo elettrostatico generato da cariche non appartenenti
+      alla superficie, prendendo in considerazione anche il versore \(\hat{u}_n\) che risulta perpendicolare alla superficie stessa.
+      A questo punto si definisce il <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">FLUSSO DEL CAMPO ELETTRICO</b> come il prodotto
+      fra il versore \(\hat{u}_n\) e il campo elettrostatico stesso:
+     </p>
+
+
+     <p style="color:rgb(0, 0, 0);">
+      \begin{aligned}
+      d\Phi_{(\overrightarrow{E})}&= \overrightarrow{E} \cdot \hat{u}_n \hspace{0.3cm} d\Sigma= \\
+      &= E \cos{(\theta)}  \hspace{0.3cm} d\Sigma=\\
+      &= E_n   \hspace{0.3cm} d\Sigma\\
+      \end{aligned}
+    </p>
+  
+
+
+
+    <p>
+    Se si estende la superficie su cui si vuole calcolare il flusso del campo elettrico non bisogna far altro che integrare su tutta la 
+    superficie considerata:
+    </p>
+
+
+
+
+    <p id= "formula1" style="color:rgb(0, 0, 0);">
+      \begin{aligned}
+      \Phi_{(\overrightarrow{E})}&=\int_{\Sigma} \overrightarrow{E} \cdot \hat{u}_n \hspace{0.3cm} d\Sigma     \hspace{2cm}       \left[ u.d.m.:\frac{N}{C}m^2=V\hspace{0.2cm}m    \right] \\
+      \end{aligned}
+    </p>
+  
+
+
+    <p>
+ Anche la superficie presa in considerazione è una superficie chiusa, il flusso attraverso essa viene calcolata sostanzialmente come nel caso precedente; 
+ l'unica differenza sta nella scrittura dell'integrale che prende il nome di <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">INTEGRALE DI LINEA</b>
+ che sta ad indicare appunto che l'integrazione avviene su una superficie chiusa.
+ </p>
+
+
+
+ <p id= "formula1" style="color:rgb(0, 0, 0);">
+  \begin{aligned}
+  \Phi_{(\overrightarrow{E})}&=\oint_{\Sigma} \overrightarrow{E} \cdot \hat{u}_n \hspace{0.3cm} d\Sigma     \hspace{2cm}       \left[ u.d.m.:\frac{N}{C}m^2=V\hspace{0.2cm}m    \right] \\
+  \end{aligned}
+</p>
+
+<img  class="ridimensionamento_carica"  src="../../images/gauss2.svg"  alt="Not found!">
+
+
+<p>
+E' bene ricordare inoltre che il verso di \(\hat{u}_n\) è sempre uscente dalla superficie, e che:
+ </p>
+
+
+ <p style="color:rgb(0, 0, 0);">
+ I) se \(  \overrightarrow{E} \cdot \hat{u}_n  > 0  \hspace{0.3cm} \longrightarrow   \hspace{0.3cm} \Phi > 0 \), cioè se il contributo di \(\hat{u}_n\)  è positivo al flusso ed \(\overrightarrow{E}\) uscente dalla superficie;
+</p>
+  
+<p style="color:rgb(0, 0, 0);">
+  II) se \(  \overrightarrow{E} \cdot \hat{u}_n  < 0  \hspace{0.3cm} \longrightarrow   \hspace{0.3cm} \Phi < 0 \), cioè se il contributo di \(\hat{u}_n\)  è negativo al flusso ed \(\overrightarrow{E}\) entrante dalla superficie;
+ </p>
+
+<br>
+
+ <p>
+A questo punto, si dimostra che il flusso del campo elettrostatico attraverso <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">QUALUNQUE</b> superficie
+chiusa è pari a:
+</p>
+  
+
+
+<p style="color:rgb(0, 0, 0);">
+  \begin{aligned}
+  \Phi_{(\overrightarrow{E})}&=\oint_{\Sigma} \overrightarrow{E} \cdot \hat{u}_n \hspace{0.3cm} d\Sigma =  \\
+  &=\frac  {q_{int}}{\epsilon_{0}}\\ 
+  \end{aligned}
+</p>
+
+<p>
+Da cui si deduce che ciò che cotribuisce al flusso stesso è solola carica contenuta all'interno di \(\Sigma\) 
+</p>
+<p>
+(N.B. se \(  q_{int} = discreta \hspace{0.3cm} \longrightarrow   \hspace{0.3cm}
+q_{int} = \sum_i{q_i}  \hspace{0.3cm}; \hspace{0.5cm}\) se \(\hspace{0.3cm} q_{int} = continua  \hspace{0.3cm} \longrightarrow   \hspace{0.3cm}  q_{int} =\int_\tau q \hspace{0.2cm}d\tau \) ).
+</p>
+
+<br><br><br>
+
+
+
+<p>
+  <u style="color:red;">
+  <b style="color:red;font-family: 'Montserrat', sans-serif;">ENUNCIATO LEGGE DI GAUSS:</b>
+</u>
+ </p>
+
+
+
+ <p>
+  <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">"Il flusso del campo elettrostatico \(E\) prodotto da un sistema di cariche attraverso una
+    superficie chiusa è uguale alla somma algebrica delle cariche elettriche che si trovano all'interno della superficie, diviso \(\epsilon_0\)":</b>
+    <p style="color:rgb(0, 0, 0);">
+      \begin{aligned}
+      \Phi_{(\overrightarrow{E})}&=\oint_{\Sigma} \overrightarrow{E} \cdot \hat{u}_n \hspace{0.3cm} d\Sigma =  \\
+      &=\frac  { (\sum_{i} q_{i})_{int} } {\epsilon_{0}}\\ 
+      \end{aligned}
+    </p>
+
+ </p>
+
+
+
+<br><br><br><br><br><br>
+
+<center>
+  <br>
+  <hr>
+  <h2 style=" margin: 20px;">LEGGE DI GAUSS PER UN CAMPO GENERATO DA UNA CARICA</h2>
+  <hr>
+  <br>
+</center>
+
+
+<img  class="ridimensionamento_carica"  src="../../images/gauss3.svg"  alt="Not found!">
+
+
+<p>
+La legge di Gauss per un campo generato da una carica puntiforme, facendo riferimento alla figura a lato, risulterà essere:
+</p>
+
+
+
+<p style="color:rgb(0, 0, 0);">
+  \begin{aligned}
+  \Phi_{(\overrightarrow{E})}&=\oint_{\Sigma} \overrightarrow{E} \cdot \hat{u}_n \hspace{0.3cm} d\Sigma =  \\
+  &=\oint_{\Sigma}   \frac{1}{4\pi\epsilon_0r^2} \hspace{0.2cm}q \hspace{0.2cm}   {\color{red} \hat{u}_r \hspace{0.2cm} \hat{u}_n}   \hspace{0.2cm}  d\Sigma =\\ 
+  &=\oint_{\Sigma}   \frac{1}{4\pi\epsilon_0r^2} \hspace{0.2cm}q \hspace{0.2cm} {\color{red} 1} \hspace{0.2cm} d\Sigma =\\ 
+  &=\frac{q}{4\pi\epsilon_0r^2}   \oint_{\Sigma}d\Sigma=\\
+  &=\frac{q}{4\pi\epsilon_0r^2}  \cdot  {\color{blue}  4\pi r^2} =\\
+  &=\frac{q}{\epsilon_0}
+  \end{aligned}
+</p>
+
+
+
+
+
+<p style="color:red">
+  (Poichè il prodotto fra due versori è per definizione pari all'unità)
+  </p>
+  
+  <p style="color:blue">
+    (Poichè \(\Sigma\) è una superficie sferica)
+    </p>
+    
+
+
+
+
+
+
+      <br><br><br><br><br><br><br><br><br><br><br>
+
+
+      
+  
+</body>
+
+<!-- ********************************-->
+<!--QUI E' FINITA LA PAGINA -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--QUI INIZIA IL PIE' PAGINA -->
+<!-- ********************************-->
+
+
+
+
+
+<footer style="background-color:#3d5a8000"> 
+
+  <hr>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+
+      <a href="../../index.html"><img  style=" position: relative; z-index: 999; width: 220px; top: -50px;" src="../../images/Logicamente.svg" ></a>
+      <!--LOGOSOTTO-->
+
+
+    <h3 style="font-family: 'Montserrat'; position: relative; top: -30px;">Se ti è piaciuta la lezione puoi condividerla su:</h3>
+    </center>
+
+  
+      
+           
+    <div class="share-btn-container">
+
+      <a id="facebook" href="#" class="facebook-btn"> 
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a id="twitter" href="#"class="twitter-btn"> 
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a id="instagram" href="#"class="instagram-btn"> 
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a id="telegram" href="https://telegram.me/share/url?url=" onclick="window.open('https://telegram.me/share/url?url=='+encodeURIComponent(location.href)+'&bodytext=&tags=&text='+encodeURIComponent(document.title));return false;"rel="nofollow" title="invia con telegram">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a id="whatsapp"href="#"class="whatsapp-btn"> 
+        <i class="fab fa-whatsapp"></i>
+      </a>
+  
+    </div>
+
+   
+ <!--
+  <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-share-url="https://core.telegram.org/widgets/share"></script>
+ -->
+ 
+  <script src="main.js"></script>
+
+
+
+
+  <div class="hormenufooter">
+    <ul >  
+  
+      <li> 
+        <a id="home" href="../../index.html">Home </a> 
+      </li>
+  
+      <li> 
+        <a id="altro"href="../../Altro.html" > Altro</a>
+      </li>
+  
+      <li> 
+        <a id="contatti" href="../../Contatti.html"> Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+      <li> 
+        <a id="termini_condizioni" href="../../termini_condizioni.html" TARGET="new target">  Termini&nbspe&nbspcondizioni </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+      <li> 
+        <a id="privacy_policy" href="../../privacy.html" TARGET="new target">  Privacy&nbspPolicy </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+    </ul>
+  </div> 
+
+
+
+
+
+
+</footer>
+
+
+
+</html>

@@ -1,0 +1,2005 @@
+/*SETTAGGIO MENU*/
+
+div#hormenu #home{
+    position: relative;
+    top: -15px;
+}
+
+div#hormenu{ 
+    position: relative;
+    padding: 45px;
+    margin-top:-13px; 
+    font-family:'Montserrat', sans-serif ;  /*monospace*/
+    font-weight: 100;  /*bold*/
+    font-size: 120% ;
+    margin-right: -10px;
+    margin-left: -100px;
+    background-color: #3d5a8000;
+    border-bottom: 1px solid #3d5a7f;
+    top: 0px;
+}
+
+
+div#hormenu ul{
+    position: absolute;
+    top: 25px;
+    left: 29%; 
+    list-style-type: none;
+}
+
+div#hormenu li{
+    width:140px;
+    text-align: center; 
+    float: left;
+    bottom: 15px;
+    margin: 0 auto;
+    padding: 0px;  /*era 0*/
+    /*
+    border-right: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);  */
+    color:rgba(255, 227, 227, 0.877);
+    background-color: none;
+    
+}
+
+
+
+div#hormenu a{
+    display: block;
+    padding: 0px;
+    color: rgb(61, 90, 128);
+    text-decoration: none; 
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+}
+
+div#hormenu #home{
+    padding: 10px;
+}
+
+div#hormenu #matematica{
+    padding: 10px;
+}
+
+div#hormenu #fisics{
+    padding: 10px;
+}
+
+div#hormenu #altro{
+    padding: 10px;
+    top:-15px;
+}
+
+div#hormenu #contatti{
+    padding: 10px;
+    top:-15px;
+}
+
+div#hormenu #chisiamo{
+    padding: 10px;
+    top:-15px;
+}
+
+div#hormenu  #analisi{
+    display: block;
+    color: #98c1d9;
+
+}
+div#hormenu  #fisica{
+    display: block;
+    color: #98c1d9;
+
+}
+
+/*solo il sottomenu SOLO quando ci vai sopra col dito (hover)*/
+div#hormenu a:hover{
+    background-color: #2e4768;  /*oppure none*/
+    background-repeat: no-repeat;
+    padding: 0px; /**/
+    color: #fad73c;
+    text-decoration: none;
+    border-right: 0px solid rgb(0, 0, 0);
+    border-left: 0px solid rgb(0, 0, 0);
+}
+
+div#hormenu #analisi:hover{
+    background-color: #98c1d900;  /*oppure none*/
+    background-repeat: no-repeat;
+
+    color: #fad73c;
+    text-decoration: none;
+  
+}
+
+
+div#hormenu #fisica:hover{
+    background-color: #98c1d900;  /*oppure none*/
+    background-repeat: no-repeat;
+
+    color: #fad73c;
+    text-decoration: none;
+  
+}
+
+div#hormenu li ul{
+    display: none;
+}
+
+
+/*quando vai sui singoli menu*/
+div#hormenu li:hover ul{
+    display: block;
+    position: absolute;
+    z-index: 1;            /*valore prestabilito che ti fa mettere in primo piano!!!*/
+    width:20px;
+    padding: 0;
+    margin: 0px 10px 10px 0px;
+    border: 1px none rgb(47, 163, 32);
+    background: none;    /*sfondo quando si apre la tendina*/
+}
+
+
+/*solo matematica e fisica*/
+div#hormenu li li a{ 
+    padding:10px 10px 10px 10px; 
+   /* border-radius: 10px;*/
+}
+
+
+/*solo i sottomenu*/
+div#hormenu li li #analisi{ 
+    position: relative;
+    border:0px solid ; 
+    width: 100px;
+    left: -60px;
+    top: 5px; 
+
+    margin-left: auto;
+    margin-right: auto;
+    background: #2e4768;
+    background-size: 100px;
+}
+
+div#hormenu li li #analisi:hover{ 
+    background-color: #2e4768;
+    padding: 10px;
+}
+
+
+
+div#hormenu li li #fisica { 
+    position: relative;
+    border:0px solid ; 
+    width: 100px;
+    left: 80px;
+    top: 5px; 
+
+    margin-left: auto;
+    margin-right: auto;
+    background: #2e4768;
+    background-size: 100px;
+}
+
+div#hormenu li li #fisica:hover { 
+    background-color: #2e4768;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*settaggio menù footer*/
+
+
+div.hormenufooter{ 
+    position: relative;
+    margin-top: -60px;
+    right: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-family:'Montserrat', sans-serif ;  /*monospace*/
+    font-weight: 100;  /*bold*/
+    font-size: 120% ;
+    background-color: #3d5a8000;
+    z-index: 9999;
+}
+
+
+div.hormenufooter ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+div.hormenufooter li{
+  
+    position: relative;
+    justify-content: center;
+    bottom: 15px;  
+    padding: 0px;  /*era 0*/
+    right: 25px;
+    /*
+    border-right: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);  */
+    color:rgba(255, 227, 227, 0.877);
+    background-color: none;
+    
+}
+
+
+
+div.hormenufooter a{
+    display: block;
+    padding: 0px;
+    color: #3d5a80;
+    text-decoration: none; 
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+}
+
+div.hormenufooter #home{
+    padding: 10px;
+}
+
+
+div.hormenufooter #altro{
+    padding: 10px;
+    top:-15px;
+}
+
+div.hormenufooter #contatti{
+    padding: 10px;
+    top:-15px;
+}
+
+div.hormenufooter #termini_condizioni{
+    display:inline;
+    padding: 10px;
+    position: relative;
+    top:-5px;
+    left: 30px;
+  
+}
+
+div.hormenufooter #privacy_policy{
+    display:inline;
+    padding: 10px;
+    position: relative;
+    top:-5px;
+    left: 30px;
+  
+}
+
+
+
+/*solo il sottomenu SOLO quando ci vai sopra col dito (hover)*/
+
+
+div.hormenufooter a:hover{
+    background-color: #2e4768;  /*oppure none*/
+    background-repeat: no-repeat;
+    padding: 0px; /**/
+    color: #fad73c;
+    text-decoration: none;
+    border-right: 0px solid rgb(0, 0, 0);
+    border-left: 0px solid rgb(0, 0, 0);
+}
+
+
+
+
+div.hormenufooter a#privacy_policy:hover{
+    background-color: #2e4768;  /*oppure none*/
+    background-repeat: no-repeat;
+    padding: 15px; /**/
+    color: #fad73c;
+    text-decoration: none;
+    border-right: 0px solid rgb(0, 0, 0);
+    border-left: 0px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+div.hormenufooter li ul{
+    display: none;
+}
+
+
+/*quando vai sui singoli menu*/
+div.hormenufooter li:hover ul{
+    display: block;
+    position: absolute;
+    z-index: 1;            /*valore prestabilito che ti fa mettere in primo piano!!!*/
+    width:20px;
+    padding: 0px;
+    margin: 0px 10px 10px 0px;
+    border: 1px none rgb(47, 163, 32);
+    background: none;    /*sfondo quando si apre la tendina*/
+}
+
+
+div.hormenufooter li a#home{ 
+    padding:10px 50px 10px 50px; 
+    border-right: 1px solid #3d5a80;
+    left: 10px;
+   /* border-radius: 10px;*/
+}
+
+
+div.hormenufooter li a#altro{ 
+    padding:10px 50px 10px 50px; 
+    border-right: 1px solid #3d5a80;
+    left: 10px;
+   /* border-radius: 10px;*/
+}
+
+
+div.hormenufooter li a#contatti{ 
+    padding:10px 50px 10px 50px; 
+    border-right: 1px solid #3d5a80;
+    left: 10px;
+
+   /* border-radius: 10px;*/
+}
+
+
+
+div.hormenufooter li a#termini_condizioni{ 
+    padding:10px 50px 10px 50px; 
+    border-right: 1px solid #3d5a80;
+    left: 10px;
+
+   /* border-radius: 10px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************/
+
+
+
+
+
+
+
+
+
+
+/*****************************************/
+/******POSIZIONE LOGHI MENU E FOOTER********/
+/*****************************************/
+
+img.position{
+    width: 40px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -85px;
+}
+
+
+img.position-logo{
+    position: absolute;
+    z-index: 999;         /*imposta il logo al 999esimo piano*/
+    width: 255px; 
+    margin-top: 23px;
+    left: 50px;
+}
+
+
+
+
+
+div.share-btn-container{
+    position: relative;
+    justify-content: center;
+    margin-top: -50px ;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   /* padding-right: 55px;*/
+    box-shadow: 0 0px 0px black;
+    z-index: 9999;
+}
+
+   
+    #twitter i{
+        font-size: 50px;
+        color: #1da1f2;
+    }
+
+    #facebook i{
+        font-size: 50px;
+        color:#1877f2;
+    }
+
+    #telegram i{
+        font-size: 50px;
+        color:#0088cc;
+    }
+
+    #whatsapp i{
+        font-size: 50px;
+        color:#25d366;
+    }
+
+    .share-btn-container a{
+        margin: 20px;
+    }
+
+    #instagram i{
+        font-size: 50px;
+        color: white;
+        background: linear-gradient(to bottom, #833ab4 0%, #c52525 50%, #f77737 90%);
+        background-size: 300px;
+        border-radius: 15px;
+        padding-left: 4px;  
+        padding-right: 4px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        margin-bottom: 90px;
+    }
+
+
+    
+
+/********SETTAGGIO BODY***********/
+
+
+
+img#imparaconnoi{
+    position: relative;
+    left: -8px;
+    z-index: -1;
+}
+
+#cta{
+    background-color: #c75d1f;
+
+    position: absolute;
+  
+    border-radius: 20px;
+    padding: 30px;
+  
+    margin-left: 65%; 
+    margin-top: 550px;
+
+    font-size: 350%;
+
+}
+
+.sfondo_index{
+
+    visibility: hidden;
+    width: 1%;
+}
+
+#universo{
+    position: absolute;
+    margin-top: -15px;
+    font-size: 350%;
+}
+
+
+#scoprire{
+    position: absolute;
+    margin-top: -350px;
+    left: 600px;
+    font-size: 250%;
+}
+
+
+#lezioni{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 350%;
+
+}
+
+#aspetti{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 350%;
+
+}
+
+
+img#background{
+    position: relative;
+    left: -8px;
+    top: -7px;
+    z-index: -1;
+}
+
+img#backgroundvuoto1{
+    position: relative;
+    left: -8px;
+    top: -58px;
+    z-index: -1;
+}
+img#backgroundvuoto2{
+    position: relative;
+    left: -8px;
+    top: -62px;
+    z-index: -1;
+}
+
+
+
+img#background2{
+    position: relative;
+    margin-top: -32%;
+    left: -8px;
+    z-index: -1;
+}
+
+
+
+
+
+/**************GRID********/
+
+
+    .grid-layout-one{
+        position: absolute;
+        width: 60%;
+        margin-left: 90px;
+        margin-top: -350px;
+    }
+
+    .grid-parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+    }
+
+    .card{ 
+        width: 100%;
+        background-color: #98c1d9c4;
+        border-radius: 50px;
+        padding-bottom: 50px;
+    
+    }
+
+    .card p{
+        font-size: 190%;
+    }
+
+    #imamgine1{
+        position: relative;
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+
+
+/************************************/
+
+
+
+
+
+img#background3{
+    position: relative;
+    top: -5px;
+    margin-left: 0px;
+    left: -8px;
+    z-index: -2;
+}
+
+
+img.ridimensionamento{   
+    height: 60%;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************/
+/*CODICE PER SETTARE GRANDEZZA CARATTERE E FONT*/
+/*****************************************/
+
+/*Titoloni con Montserrat*/
+h1{
+    text-align: center;
+    font-size: 160px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Titoli normali con montserrat ma più piccoli di font size*/
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif;   /*cursive*/
+    color:#000000;
+}
+
+
+/*articoli Poppins color 555555*/
+p{
+    text-align: justify;
+    column-count: 1;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Poppins', sans-serif;
+    color: #555555;
+}
+
+
+p, h2, span,hr{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+.esercizi{
+    margin-left: 25%;
+
+}
+
+
+
+
+
+
+/*****************************************/
+/*codice per settare la barra di ricerca*/
+/*****************************************/
+
+input#search{
+    position:absolute;
+    right: 70px;
+    top: -35px;
+
+    height: 40px;
+    width: 205px;
+
+    z-index: 99;
+    margin: 60px;
+
+    padding: 0px 38px;
+
+    border-radius: 25px;
+    outline: none !important;
+     /*outline-offset: 100px; */
+    border-width: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/********INIZIO TIPOLOGIE VISUALIZZAZIONE ***********/
+/**********DA DIVERSI DISPOSITIVI***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************/
+/*VISUALIZZAZIONE DA LAPTOP*/
+/***************************************/
+@media (max-width: 2500px) {
+
+    #hamburger{
+        visibility: hidden;
+    }
+ 
+    #accedi{
+        width: 50px; 
+        position: absolute;
+        top: 105px;
+        right: 20px;
+    
+    }
+
+    #searchicon{
+        width: 25px; 
+        position: relative;
+        z-index: 100;
+        top: 34px;
+        right: 330px;
+
+    }
+
+    #hormenu2{
+        position: absolute;
+        display: none;
+    }
+
+    
+    h1#termini{
+        text-align: center;
+        font-size: 300%;
+    }
+
+    h1#privacy{
+        text-align: center;
+        font-size: 300%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************/
+/************TRANSIZIONE*********/
+/***************************************/
+@media (max-width: 1650px) {
+
+    input#search, #searchicon{
+        visibility: hidden;
+    }
+
+    .sfondo_index{
+
+        visibility: hidden;
+        width: 1%;
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************/
+/*VISUALIZZAZIONE DA TABLET*/
+/***************************************/
+@media (max-width: 1300px) { 
+
+    .sfondo_index{
+
+        visibility: visible;
+        width: 100%;
+    }
+
+
+    #cta{
+        position: absolute;
+        margin-left: 65%;
+      margin-top: 25%;
+        
+        font-size: 30px;
+    
+    }
+
+    img.position{
+        width: 40px;
+        float: right;
+        margin-right: 30px;
+        margin-top: -80px;
+    }
+  
+
+    /* questo codice sotto serve a spostare 
+    a piacimento l'immagine "logo"*/
+    .wrapper{
+        position: absolute;
+        width: 100%;
+        height: 0px;
+    }#logo{
+        width: 190px; 
+        position: absolute;
+        margin: auto;
+        top: 200px;
+        left: 0;
+        right: 10px;
+        bottom: 100px; 
+        background-color: #3d5a8000;
+    }
+
+
+    /* questo codice sotto serve a spostare 
+    a piacimento l'immagine "accedi"*/
+    .wrapper2{
+
+        position: absolute;
+        width: 7%;
+        height: 0px;
+    }
+    
+    #accedi{
+        width: 40px; 
+        position: absolute;
+        margin: 0px;
+        top: -60px;
+        left: 30px;
+        right: -10px;
+        bottom: 300px; 
+    }  
+
+
+   /* questo codice sotto serve a fare vedere*/
+    /* l'immagine "hamburger" solo quando si 
+    visualizza il sito da tablet o smartphone*/
+  
+  
+    #hamburger{
+        position: absolute;
+        visibility: visible;
+        width: 40px;
+        top: 104px;
+        right: -7px;
+    }
+
+
+
+/*****************************************/
+ /**************INIZIO MENU2****************/
+/*******************************************/
+
+    div#hormenu2{
+        position: absolute;   /*display: none*/
+
+        z-index: 999999999999;
+
+        top: 200px;
+        left: -2px;
+        margin-top:-100px; 
+
+
+        width: 100%;
+        height: 160%;
+        max-width: 100%;
+    
+
+
+        font-family:'Montserrat', sans-serif ;  /*monospace*/
+        font-weight: 700;  /*bold*/
+        font-size: 180% ;
+        background-color: #3d5a80f1;
+  
+    }
+    
+    
+    div#hormenu2 ul{
+        position: absolute;
+        top: -20px;
+        right:15px;
+
+        width: 10%;
+        height: 80%;
+        max-width: 100%;
+        max-height: 100%;
+        list-style-type: none;     
+    }
+    
+    div#hormenu2 li{   
+        text-align: center; 
+        margin: 0px auto;
+        padding: 0px;  /*era 0*/
+        /*
+        border-right: 3px solid #000000;
+        border-left: 3px solid #000000;  
+        */
+        color:#ffe3e3;
+        background-color: none;    
+    }
+    
+    div#hormenu2 a{
+        position: relative;
+        float: right;
+        display: block;
+    
+        padding: 30px;
+        color: #b8d7e9;
+        text-decoration: none; 
+        
+    }
+
+
+
+    div#hormenu2 a.chi_siamo{
+        position: relative;
+  
+        display:flex;
+        flex-direction: row;
+    
+        padding: 30px;
+        color: #b8d7e9;
+        text-decoration: none; 
+        
+    }
+
+
+    
+    /*solo il sottomenu SOLO quando ci vai sopra col dito (hover)*/
+    div#hormenu2 a:hover{
+        background-color: #2e4768;  /*oppure none*/
+        background-repeat: no-repeat;
+    
+        color: #f6ae2d;
+        text-decoration: none;
+        border-right: 3px none rgb(0, 0, 0);
+        border-left: 3px none rgb(0, 0, 0);
+        width: 170px;
+    }
+    
+  
+
+
+/******************************************************/
+/*RENDE NON VISIBILE IL MENU + barra ricerca e immagine lente*/
+/*RENDE VISIBILE IL MENU2 solo se clicchi sull'amburger*/
+/************************************************/  
+    div#hormenu ul, input#search, #searchicon{
+        visibility: hidden;
+    }
+
+
+
+
+
+
+
+    div.hormenufooter{ 
+        position: relative;
+        margin-top: -60px;
+        right: -10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        font-family:'Montserrat', sans-serif ;  /*monospace*/
+        font-weight: 100;  /*bold*/
+        font-size: 100% ;
+        background-color: #3d5a8000;
+        z-index: 999999999999;
+    }
+    
+    
+    div.hormenufooter ul{
+        list-style-type: none;
+        display:flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    div.hormenufooter li{
+      
+        position: relative;
+        justify-content: center;
+        bottom: 15px;  
+        padding: 0px;  /*era 0*/
+        right: 25px;
+        /*
+        border-right: 3px solid rgb(0, 0, 0);
+        border-left: 3px solid rgb(0, 0, 0);  */
+        color:rgba(255, 227, 227, 0.877);
+        background-color: none;
+        
+    }
+    
+    
+    
+    div.hormenufooter a{
+        display: block;
+        padding: 0px;
+        color: #3d5a80;
+        text-decoration: none; 
+        position: relative;
+        left: 15px;
+        bottom: 15px;
+    }
+    
+    div.hormenufooter #home{
+        font-size: 80%;
+        padding: px;
+    }
+    
+    
+    div.hormenufooter #altro{
+        font-size: 80%;
+        padding: px;
+        top:-15px;
+    }
+    
+    div.hormenufooter #contatti{
+        font-size: 80%;
+        padding: px;
+        top:-15px;
+    }
+    
+
+
+    div.hormenufooter #termini_condizioni{
+        font-size: 80%;
+        padding: px;
+        top:-18px;
+      
+    }
+    div.hormenufooter #privacy_policy{
+        font-size: 80%;
+        display:inline;
+        padding: 10px;
+        position: relative;
+        top:-18px;
+        left: 30px;
+      
+    }
+    
+    
+    
+    /*solo il sottomenu SOLO quando ci vai sopra col dito (hover)*/
+    
+    
+    div.hormenufooter a:hover{
+        background-color: #2e4768;  /*oppure none*/
+        background-repeat: no-repeat;
+        padding: 0px; /**/
+        color: #fad73c;
+        text-decoration: none;
+        border-right: 0px solid rgb(0, 0, 0);
+        border-left: 0px solid rgb(0, 0, 0);
+    }
+    
+    
+    
+    
+    div.hormenufooter a#privacy_policy:hover{
+        background-color: #2e4768;  /*oppure none*/
+        background-repeat: no-repeat;
+        padding: 15px; /**/
+        color: #fad73c;
+        text-decoration: none;
+        border-right: 0px solid rgb(0, 0, 0);
+        border-left: 0px solid rgb(0, 0, 0);
+    }
+    
+    
+    
+    
+    
+    div.hormenufooter li ul{
+        display: none;
+    }
+    
+    
+    /*quando vai sui singoli menu*/
+    div.hormenufooter li:hover ul{
+        display: block;
+        position: absolute;
+        z-index: 1;            /*valore prestabilito che ti fa mettere in primo piano!!!*/
+        width:20px;
+        padding: 0px;
+        margin: 0px 10px 10px 0px;
+        border: 1px none rgb(47, 163, 32);
+        background: none;    /*sfondo quando si apre la tendina*/
+    }
+    
+    
+    div.hormenufooter li a#home{ 
+        padding:0px 10px 0px 0px; 
+        border-right: 1px solid #3d5a80;
+        left: 10px;
+       /* border-radius: 10px;*/
+    }
+    
+    
+    div.hormenufooter li a#altro{ 
+        padding:0px 10px 0px 10px; 
+        border-right: 1px solid #3d5a80;
+        left: 10px;
+       /* border-radius: 10px;*/
+    }
+    
+    
+    div.hormenufooter li a#contatti{ 
+        padding:0px 10px 0px 10px; 
+        border-right: 1px solid #3d5a80;
+        left: 10px;
+    
+       /* border-radius: 10px;*/
+    }
+
+
+    div.hormenufooter li a#privacy_policy{ 
+        padding:0px 10px 0px 10px; 
+        left: 10px;
+    
+       /* border-radius: 10px;*/
+    }
+
+
+    div.hormenufooter li a#termini_condizioni{ 
+        padding:0px 10px 0px 10px; 
+        border-right: 1px solid #3d5a80;
+        left: 10px;
+    
+       /* border-radius: 10px;*/
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************/  
+  /*RIDIMENSIONA TUTTE LE  SEZIONI DEGLI ARTICOLI */
+  /*******PER RENDERE ADATTIVA LA PAGINA VISUALIZZATA*******/
+/************************************************************/   
+ 
+    h1{
+        text-align: center;
+        font-size: 100px;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 8%;
+        margin-left: 8%; 
+    }
+
+    p{
+        font-size: 90%;
+    }
+
+
+    p, h1, h2, span,hr{
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+
+    .esercizi{
+        margin-left: 12%;
+    
+    }
+
+
+
+
+
+/********SETTAGGIO BODY VERSIONE TABLET***********/
+
+
+
+img#imparaconnoi{
+    position: relative;
+    left: -8px;
+    z-index: -1;
+    top: -50px;
+}
+
+
+
+#universo{
+    position: absolute;
+    margin-top: -5px;
+    font-size: 250%;
+
+}
+
+
+#scoprire{
+    position: absolute;
+    margin-top: -280px;
+    left: 350px;
+    font-size: 150%;
+}
+
+
+#lezioni{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 200%;
+}
+
+#aspetti{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 200%;
+    left: 90px;
+}
+
+img#background{
+    position: relative;
+    left: -8px;
+    top: -55px;
+    z-index: -1;
+}
+
+
+img#background2{
+    position: relative;
+    margin-top: -40%;
+    left: -8px;
+    z-index: -1;
+}
+
+
+img#backgroundvuoto1{
+    position: relative;
+    left: -8px;
+    top: -60px;
+    z-index: -1;
+}
+img#backgroundvuoto2{
+    position: relative;
+    left: -8px;
+    top: -65px;
+    z-index: -1;
+}
+
+
+
+
+/****************************/
+.grid-layout-one{
+
+    position: absolute;
+    width: 60%;
+    margin-left: 60px;
+    margin-top: -250px;
+
+}
+
+.grid-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+
+}
+
+.card{ 
+    width: 100%;
+    background-color: #98c1d9c4;
+    border-radius: 50px;
+}
+
+#imamgine1{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+
+/**************************************/
+
+
+
+img#background3{
+    position: relative;
+    top: -5px;
+    margin-left: 0px;
+    left: -8px;
+    z-index: -2;
+}
+
+
+
+img.ridimensionamento{   
+    height: 60%;
+    width: 60%;
+}
+
+
+
+.share-btn-container{
+    position: relative;
+    justify-content: center;
+    margin-top: -50px ;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    padding-right: 55px;
+    box-shadow: 0 0px 0px black;
+    z-index: 9999999;
+}
+
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************/
+/*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
+/***************************************/
+@media (max-width: 767px) {
+    #cta{
+        position: absolute;
+        margin-left: 20%;
+      margin-top: 70%;
+        
+        font-size: 50px;
+    
+    }
+
+    h1{
+        text-align: justify;
+        font-size: 80px;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 8%;
+        margin-left: 8%; 
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************/
+/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
+/***************************************/
+@media (max-width: 480px) {
+
+    #hamburger{
+        position: relative;
+        top:20px;
+    }
+
+
+    #accedi{
+        width: 40px; 
+        position: absolute;
+        margin: 0px;
+        top: -60px;
+        left: 20px;
+        right: -10px;
+        bottom: 300px; 
+    }  
+
+    
+    #cta{
+        position: absolute;
+        margin-left: 10%;
+      margin-top: 80%;
+        
+        font-size: 40px;
+    
+    }
+
+    #formula1{
+        font-size: 60%;
+    }  
+
+
+    p{
+    font-size: 80%;
+    }
+
+
+    h1{
+        text-align: center;
+        font-size: 300%;
+    }
+
+    h1#termini{
+        text-align: center;
+        font-size: 300%;
+    }
+    h1#privacy{
+        text-align: center;
+        font-size: 300%;
+    }
+
+    .esercizi{
+        margin-left: 15%;
+    
+    }
+
+
+    /*****************************************/
+    /**************INIZIO MENU2****************/
+    /*******************************************/
+
+    div#hormenu2{
+        position: absolute;   /*display: none*/
+
+        z-index: 99999999;
+
+        top: 200px;
+        left: 0px;
+        margin-top:-120px; 
+
+
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+
+
+        font-family:'Montserrat', sans-serif ;  /*monospace*/
+        font-weight: 700;  /*bold*/
+        font-size: 180% ;
+        background-color: #3d5a80f1;
+
+    }
+
+
+    div#hormenu2 ul{
+    position: absolute;
+    top: -20px;
+    right:15px;
+
+    width: 10%;
+    height: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    list-style-type: none;     
+    }
+
+    div#hormenu2 li{   
+        text-align: center; 
+        margin: 0px auto;
+        padding: 0px;  /*era 0*/
+        /*
+        border-right: 3px solid #000000;
+        border-left: 3px solid #000000;  
+        */
+        color:#ffe3e3;
+        background-color: none;    
+    }
+
+    div#hormenu2 a{
+        position: relative;
+        float: right;
+        display: block;
+
+        padding: 30px;
+        color: #b8d7e9;
+        text-decoration: none; 
+    
+    }
+
+    /*solo il sottomenu SOLO quando ci vai sopra col dito (hover)*/
+    div#hormenu2 a:hover{
+        background-color: #2e4768;  /*oppure none*/
+        background-repeat: no-repeat;
+
+        color: #f6ae2d;
+        text-decoration: none;
+        border-right: 3px none rgb(0, 0, 0);
+        border-left: 3px none rgb(0, 0, 0);
+        width: 170px;
+    }
+
+
+    div#pagina{
+        position: relative;
+        top: 0px;
+        width: 105%;
+
+    }
+
+
+    img#imparaconnoi{
+        position: relative;
+        top: -50px;
+        left: -8px;
+        z-index: -1;
+    }
+    
+
+    #universo{
+        position: absolute;
+        margin-top: -50px;
+        font-size: 100%;
+    }
+    
+    
+    #scoprire{
+        position: absolute;
+        margin-top: -150px;
+        left: 150px;
+        font-size: 60%;
+    }
+
+
+    #lezioni{
+        position: absolute;
+        margin-top: 0px;
+        font-size: 60%;
+    }
+    
+    #aspetti{
+        position: absolute;
+        margin-top: -80px;
+        font-size: 60%;
+        left: 65px;
+    }
+    
+    
+
+    img#backgroundvuoto1{
+        position: relative;
+        left: -8px;
+        top: -62px;
+        z-index: -1;
+    }
+    img#backgroundvuoto2{
+        position: relative;
+        left: -8px;
+        top: -67px;
+        z-index: -1;
+    }
+    
+    img#background{
+        position: relative;
+        left: -8px;
+        top: -57px;
+        z-index: -1;
+    }
+    
+    img#background2{
+        position: relative;
+        margin-top: -48%;
+        left: -8px;
+        z-index: -1;
+    }
+    
+    img#background3{
+        position: relative;
+        top: -5px;
+        margin-left: 0px;
+        left: -8px;
+        z-index: -2;
+    }
+    
+ 
+
+    /****************************/
+    .grid-layout-one{
+
+        position: absolute;
+        width: 55%;
+        margin-left: 30px;
+         margin-top: -100px;
+        font-size: 30%;
+    }
+
+    .grid-parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+
+    }
+
+    .card{ 
+        width: 100%;
+        background-color: #98c1d9c4;
+        border-radius: 25px;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+
+    #imamgine1{
+        position: relative;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+    .share-btn-container{
+        position: relative;
+        justify-content: center;
+        background: rgba(148, 18, 18, 0);
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0 0px 0px black;
+    }
+
+ 
+    .share-btn-container a i{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .share-btn-container a{
+        margin: 24px; 
+    }
+
+    
+    #instagram i{
+  
+        font-size: 20px;
+        position: relative;
+        background: linear-gradient(to bottom, #833ab4 0%, #c52525 50%, #f77737 90%);
+        background-size: 300px;
+        border-radius: 7px;
+        padding: 0%;
+        padding-left: 3px;  
+        padding-right: 3px;
+        padding-top: 3px; 
+        padding-bottom: 3px; 
+        top: -4px;
+    }
+
+    #twitter i{
+    
+        font-size: 20px;
+        color: #1da1f2;
+    }
+
+    
+        #facebook i{
+       
+            font-size: 20px;
+            color:#1877f2;
+        }
+    
+        #telegram i{
+      
+            font-size: 20px;
+            color:#0088cc;
+        }
+    
+        #whatsapp i{
+      
+            font-size: 20px;
+            color:#25d366;
+        }
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        div.hormenufooter{ 
+            position: relative;
+            margin-top: -70px;
+            right: 0px;
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            font-family:'Montserrat', sans-serif ;  /*monospace*/
+            font-weight: 100;  /*bold*/
+            font-size: 100% ;
+            background-color: #3d5a8000;
+            z-index: 999999999999;
+        }
+        
+        
+        div.hormenufooter ul{
+            list-style-type: none;
+            display:flex;
+            flex-direction: row;
+            text-align: center;
+        }
+        
+        div.hormenufooter li{
+          
+            position: relative;
+            justify-content: center;
+            bottom: 15px;  
+            padding: 0px;  /*era 0*/
+            right: 25px;
+            /*
+            border-right: 3px solid rgb(0, 0, 0);
+            border-left: 3px solid rgb(0, 0, 0);  */
+            color:rgba(255, 227, 227, 0.877);
+            background-color: none;
+            
+        }
+        
+        
+        
+        div.hormenufooter a{
+            display: block;
+            padding: 0px;
+            color: #3d5a80;
+            text-decoration: none; 
+            position: relative;
+            left: 15px;
+            bottom: 15px;
+        }
+        
+        div.hormenufooter #home{
+            font-size: 60%;
+            padding: px;
+        }
+        
+        
+        div.hormenufooter #altro{
+            font-size: 60%;
+            padding: px;
+            top:-15px;
+        }
+        
+        div.hormenufooter #contatti{
+            font-size: 60%;
+            padding: px;
+            top:-15px;
+        }
+        
+
+
+        div.hormenufooter #termini_condizioni{
+            font-size: 60%;
+            padding: px;
+            top:-21px;
+          
+        }
+        div.hormenufooter #privacy_policy{
+            font-size: 60%;
+            display:inline;
+            padding: 10px;
+            position: relative;
+            top:-21px;
+            left: 30px;
+          
+        }
+        
+        
+        
+        /*solo il sottomenu SOLO quando ci vai sopra col dito (hover)*/
+        
+        
+        div.hormenufooter a:hover{
+            background-color: #2e4768;  /*oppure none*/
+            background-repeat: no-repeat;
+            padding: 0px; /**/
+            color: #fad73c;
+            text-decoration: none;
+            border-right: 0px solid rgb(0, 0, 0);
+            border-left: 0px solid rgb(0, 0, 0);
+        }
+        
+        
+        
+        
+        div.hormenufooter a#privacy_policy:hover{
+            background-color: #2e4768;  /*oppure none*/
+            background-repeat: no-repeat;
+            padding: 15px; /**/
+            color: #fad73c;
+            text-decoration: none;
+            border-right: 0px solid rgb(0, 0, 0);
+            border-left: 0px solid rgb(0, 0, 0);
+        }
+        
+        
+        
+        
+        
+        div.hormenufooter li ul{
+            display: none;
+        }
+        
+        
+        /*quando vai sui singoli menu*/
+        div.hormenufooter li:hover ul{
+            display: block;
+            position: absolute;
+            z-index: 1;            /*valore prestabilito che ti fa mettere in primo piano!!!*/
+            width:20px;
+            padding: 0px;
+            margin: 0px 10px 10px 0px;
+            border: 1px none rgb(47, 163, 32);
+            background: none;    /*sfondo quando si apre la tendina*/
+        }
+        
+        
+        div.hormenufooter li a#home{ 
+            padding:0px 10px 0px 0px; 
+            border-right: 1px solid #3d5a80;
+            left: 10px;
+           /* border-radius: 10px;*/
+        }
+        
+        
+        div.hormenufooter li a#altro{ 
+            padding:0px 10px 0px 10px; 
+            border-right: 1px solid #3d5a80;
+            left: 10px;
+           /* border-radius: 10px;*/
+        }
+        
+        
+        div.hormenufooter li a#contatti{ 
+            padding:0px 10px 0px 10px; 
+            border-right: 1px solid #3d5a80;
+            left: 10px;
+        
+           /* border-radius: 10px;*/
+        }
+
+
+        div.hormenufooter li a#privacy_policy{ 
+            padding:0px 10px 0px 10px; 
+            left: 10px;
+        
+           /* border-radius: 10px;*/
+        }
+
+
+        div.hormenufooter li a#termini_condizioni{ 
+            padding:0px 10px 0px 10px; 
+            border-right: 1px solid #3d5a80;
+            left: 10px;
+        
+           /* border-radius: 10px;*/
+        }
+        
+
+
+
+
+
+
+}

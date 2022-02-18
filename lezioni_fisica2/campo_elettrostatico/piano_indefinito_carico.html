@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- link per riferirsi al file css-->
+    <link rel="stylesheet" href="../../style1.css">
+    <link rel="stylesheet" href="../../style_calcolo_carica.css">
+ 
+
+    <title>Logicamente</title>
+
+    <!-- link per riferirsi all'immagine da mettere come icona del sito --> 
+    <link rel="icon" href="../../images/Logicamente-little.svg" type="image/icon type">
+
+    <!-- meta usato per definire nel file css le modifiche sel sito  --> 
+    <!-- in base alla grandezza di visualizzazione (versione Desktop o mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- per titoli grossi -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+  <!--script usato per la libreria LATEX-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--link e script usato per i bottoni social media sharing-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+</head>
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU -->
+<!-- ********************************-->
+
+  <div class="wrapper">
+  <a href="../../index.html"><img id="logo" class="position-logo" src="../../images/Logicamente.svg" > 
+  <!--LOGO-->
+  </div>
+
+
+<div id="hormenu">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> <a id="matematica" href="../../Matematica.html"> Matematica </a>   
+      <ul> 
+        <li><a id="analisi" href="../../Analisi1.html">Analisi I</a></li>
+        <li><a id="analisi" href="../../Analisi2.html">Analisi II</a></li>
+      </ul> 
+    </li>
+
+    <li> <a id="fisics" href="../../Fisica.html"> Fisica </a>
+      <ul> 
+        <li><a id="fisica" href="../../Fisica1.html">Fisica I</a></li>
+        <li><a id="fisica" href="../../Fisica2.html">Fisica II</a></li>
+      </ul> 
+    </li>
+
+    <li> 
+      <a id="altro"href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a id="chisiamo" href="../../Chi_siamo.html" > Chi siamo </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+
+    <li> 
+      <a id="contatti" href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+   
+  </ul>
+</div> 
+
+
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--********************-->
+<!--*****QUI INIZIA*****-->
+<!--barra di navigazione-->
+<!--********************-->
+<!--
+<form id="search_form" action="/Matematica.html" method="post">
+  <input id="search" type="text" list="suggestion" size="30px" name="keyword" placeholder=" Search...">
+    <datalist id="suggestion">
+     <option>Matematica</option>
+      <option>AnalisiI</option>
+      <option>AnalisiII</option>
+      <option>Fisica</option>
+      <option>FisicaI</option>
+      <option>FisicaII</option>
+    </datalist>
+</form>
+
+-->
+
+<!--
+
+<div class="wrapper2">
+  <img href="#" class="position" id="searchicon" src="/images/outline_search_black_24dp.png">
+</div>
+-->
+
+
+
+
+
+
+<!--tasto info-->
+<div class="wrapper2">
+  <a href="../../privacy.html" TARGET="new target"><img class="position" id="accedi"  src="../../images/help_black_24dpv2.svg"></a>
+</div>
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU2 -->
+<!-- ********************************-->
+<div id="hormenu2">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> 
+      <a id="Matematica" href="../../Matematica.html"> Matematica </a>      
+    </li>
+
+    <li> 
+      <a  href="../../Fisica.html"> Fisica </a>
+    </li>
+
+    <li> 
+      <a  href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a class="chi_siamo" href="../../Chi_siamo.html" > Chi&nbspsiamo</a>
+    </li>
+
+
+
+    <li> 
+      <a  href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+  </ul>
+</div>  
+
+
+
+
+
+<!--hamburger-->
+<a  href="javascript:void(0);" onclick="myFunction()" class="icon" > <img class="position" id="hamburger" src="../../images/outline_menu_black_24dp.png"></a>
+ 
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("hormenu2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+</script>
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU2 -->
+<!-- ********************************-->
+
+
+
+
+
+<!-- *******************************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL CORPO DELLA PAGINA -->
+<!-- ********************************-->
+
+<body style="background-color:rgba(0, 0, 0, 0)">
+  
+
+    <center>
+        <br>
+        <hr>
+        <h2 style=" margin: 20px;">Campo Elettrostatico di un piano carico ed indefinito</h2>
+        <hr>
+        <br>
+      </center>
+
+
+    <p>
+        Per calcolare il campo elettrostatico di un piano carico ed indefinito (ossia con dimensione infinita) bisogna prima considerare il piano stesso
+        come formato da un numero indefinito di anelli carichi, e quindi capaci di generare dei campi elettrostatici la cui somma è pari al campo totale 
+        che si cerca di calcolare.
+    </p> 
+
+    <center>
+    <img  src="../../images/anello_carico.svg" width="50%" alt="Not found!">
+    </center>
+
+    <p>
+        Per il caso in figura si ha una carica distribuita
+        uniformemente, quindi la densità di carica è di tipo lineare \( \lambda=\frac{q}{2\pi R}\), dove R è la misura della perpendicolare condotta da un 
+        elemento infinitesimo \(dq\) e l'asse dell'anello; si considera inoltre \(r\) come la distanza fra un elemento infinitesimo \(dq\) e il punto generico P
+        sull'asse, e \(\theta\) come l'angolo formato fra l'asse ed \(r\) stesso.
+    </p> 
+    <br><br>
+    <p>
+    Per prima cosa quindi procediamo a calcolare il campo elettrostatico di un singolo anello carico: dalla formula della densità di carica appena mostrata
+    si può ricavare il contributo infinitesimo \(dq=\lambda dl\) (dove ovviamente \(dl\) è uguale alla lunghezza ell'anello, cioè risulta che \(dl=2\pi R\)).
+    </p>
+
+    <p>
+      Il contributo al campo elettrostatico di un singolo elemento indefinito \(dq\) si calcola a partire dalla formula generica del campo elettrostatico:
+    </p>
+
+
+    <p style="color:rgb(0, 0, 0);">
+        \begin{aligned}
+        d\overrightarrow{E_{(x)}} &= \frac{1}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{dq}{r^2} \hspace{0.3cm}\cos{(\theta)}\hspace{0.3cm}\hat{u_x}=\\
+         &= \frac{1}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{\lambda dl}{r^2} \hspace{0.3cm}\cos{(\theta)}\hspace{0.3cm}\hat{u_x} \\
+         \end{aligned}
+      </p> 
+    
+
+      <p>
+        Da cui si può ricavare il campo elettrostatico semplicemente integrando su tutta la lunghezza \(l\) dell'anello: 
+        </p>
+
+    <p style="color:rgb(0, 0, 0);">
+        \begin{aligned}
+        \overrightarrow{E_{(x)}} &= \int_{l}\hspace{0.3cm} d\overrightarrow{E_{(x)}} =\\
+        &= \int_0^l \frac{1}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{\lambda dl}{r^2} \hspace{0.3cm}\cos{(\theta)}\hspace{0.3cm}\hat{u_x} =\\
+
+        &= \frac{\lambda \cos{(\theta)}}{4\pi\epsilon_{0} r^2} \hspace{0.3cm}\hat{u_x} \int_0^l dl=\\
+        &= \frac{\lambda \cos{(\theta)}}{4\pi\epsilon_{0} r^2} \hspace{0.3cm}\hat{u_x} \hspace{0.3cm}\left[ l \right]_0^l=\\
+        &= \frac{\lambda \cos{(\theta)}}{4\pi\epsilon_{0} r^2} \hspace{0.3cm}\hat{u_x} \hspace{0.3cm}l=\\
+        &= \frac{\lambda \cos{(\theta)}}{4\pi\epsilon_{0} r^2} \hspace{0.3cm}  \hat{u_x} \hspace{0.3cm} 2\pi R=\\
+        &= \frac{\lambda \hspace{0.3cm} 2\pi R}{4\pi\epsilon_{0} r^2} \hspace{0.3cm} \cos{(\theta)}\hspace{0.3cm} \hat{u_x}=\\
+         \end{aligned}
+    </p> 
+        
+    <p>
+        e poichè è più conveniente esprimere \(E_{(x)}\) in funzione di \(x\), e sapendo che: \(r^2=x^2+R^2\), \(\lambda \cdot 2\pi R = q\), e \(\cos{(\theta)}=\frac{x}{\sqrt{x^2+R^2}}\)
+        allora si può continuare a scrivere:
+    </p>
+
+
+    <p style="color:rgb(0, 0, 0);">
+        \begin{aligned}
+        &= \frac{\lambda \hspace{0.3cm} 2\pi R}{4\pi\epsilon_{0}}  \frac{\cos{(\theta)}}{r^2} \hspace{0.3cm} \hspace{0.3cm} \hat{u_x}=\\
+        &= \frac{q}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{x}{\sqrt{x^2+R^2}\cdot r^2} \hspace{0.3cm}\hat{u_x} =\\
+        &= \frac{q}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{x}{{(x^2+R^2)}^{\frac{3}{2}}} \hspace{0.3cm}\hat{u_x} \\
+         \end{aligned}
+    </p> 
+
+    <br><br><br>
+
+
+    <p>
+ A questo punto poichè si deve trovare un modo per considerare tutti i contributi degli anelli infinitesimi che formano il piano carico al campo elettrostatico,
+ si può considerare il campo appena trovato come uno dei suddetti contributi \(d\overrightarrow{E_{(x)}}\) al campo totale. 
+</p>
+
+
+
+<center>
+  <img  src="../../images/disco_carico.svg" width="50%" alt="Not found!">
+  </center>
+
+
+
+
+<p>
+    Il piano indefinito coincide quindi con un disco carico indefinito con raggio \(r\), spessore \(dr\) e raggio massimo \(R\) che tende all'infinito; inoltre il disco presenta
+    una distribuzione di carica uniforme e superficiale \(\sigma =\frac{q}{\Sigma} =\frac{q}{\pi R^2}\), e i singoli elementi infinitesimi sono \(dq = \sigma d\Sigma = \sigma 2\pi r dr\)
+
+ </p>
+
+
+ <p>
+ Siamo pronti quindi a calcolare \(d\overrightarrow{E_{(x)}}\) stando attenti a considerare \(R=r\) poichè nei due casi rappresentano il raggio generico dell'anello carico:
+ </p>
+
+ <p style="color:rgb(0, 0, 0);">
+    \begin{aligned}
+    d\overrightarrow{E_{(x)}}&= \frac{dq}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{x}{{(x^2+r^2)}^{\frac{3}{2}}} \hspace{0.3cm}\hat{u_x}= \\
+   &= \frac{\sigma 2\pi r}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{x}{{(x^2+r^2)}^{\frac{3}{2}}} \hspace{0.3cm}\hat{u_x}= \\
+    &= \frac{\frac{q}{\pi R^2} 2\pi r}{4\pi\epsilon_{0}} \hspace{0.3cm}\frac{x}{{(x^2+r^2)}^{\frac{3}{2}}} \hspace{0.3cm}\hat{u_x}= \\
+    &= \frac{q \hspace{0.1cm} x }{2\pi\epsilon_{0}R^2} \hspace{0.3cm}\frac{r \hspace{0.1cm} dr}{{(x^2+r^2)}^{\frac{3}{2}}} \hspace{0.3cm}\hat{u_x} =\\
+     \end{aligned}
+</p> 
+
+<p>
+   si integra per ottenere finalmente \(\overrightarrow{E_{(x)}}\):
+</p>
+
+
+<p style="color:rgb(0, 0, 0);">
+    \begin{aligned}
+    \overrightarrow{E_{(x)}}&= \int_0^R d\overrightarrow{E_{(x)}} =\\
+    &= \int_0^R \frac{\sigma x}{2\epsilon_0} \frac{r dr}{{(x^2+r^2)}^{\frac{3}{2}}} \hat{u_x}=\\
+    &= \frac{\sigma x}{2\epsilon_0}\int_0^R \frac{r dr}{{(x^2+r^2)}^{\frac{3}{2}}} \hat{u_x}=\\
+     \end{aligned}
+</p>
+
+<p>
+    e risolvendo per sostituzione l'integrale, cioè ponendo \(t=x^2+r^2\), da cui \(dt=2r \cdot dr\), e moltiplicando e dividendo per \(2\) tutta la formula per poter sostituire \(dt\) si ottiene:
+ </p>
+
+
+ <p style="color:rgb(0, 0, 0);">
+    \begin{aligned}
+    &= \frac{\sigma x}{2\epsilon_0} \hat{u_x} \frac{1}{2}\int_0^R \frac{2r dr}{{(x^2+r^2)}^{\frac{3}{2}}}=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x}\frac{1}{2}\int_0^R \frac{dt}{{(t)}^{\frac{3}{2}}} =\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x}\frac{1}{2}\int_0^R t^{-\frac{3}{2} } dt=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x}\frac{1}{2} \left[ \frac{t^{-\frac{1}{2} }}{-\frac{1}{2}} \right]_0^R=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x} \left[ -t^{-\frac{1}{2}} \right]_0^R=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x} \left[ -(x^2+r^2)^{-\frac{1}{2}} \right]_0^R=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x} \left[ -\frac{1}{\sqrt{x^2+r^2}} \right]_0^R=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x} \left( -\frac{1}{\sqrt{x^2+R^2}} +\frac{1}{\sqrt{x^2}}\right)=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \hat{u_x} \left( -\frac{1}{\sqrt{x^2+R^2}} +\frac{1}{|x|}\right)=\\
+      &= \frac{\sigma x}{2\epsilon_0}   \left( \frac{1}{|x|}-\frac{1}{\sqrt{x^2+R^2}} \right)\hat{u_x}\\
+     \end{aligned}
+</p>
+
+
+<p>
+dove se \(R\rightarrow \infty\), come per ipotesi, allora:
+</p>
+
+<p style="color:rgb(0, 0, 0);">
+  $$ \overrightarrow{E_{(x)}} = \frac{\sigma}{2\epsilon_0} $$
+    </p>
+ 
+    
+    <center>
+      <img  class="ridimensionamento" src="../../images/piano_indefinito.svg"   alt="Not found!">
+    </center> 
+    <br><br> 
+<p>
+  Il campo elettrostatico appena calcolato risulta essere perciò il campo generato solo da una delle due superfici
+  di cui è formato il piano carico; si hanno due casi possibili che porteranno alla medesima conclusione: se il piano è caricato positivamente, o negativamente, 
+  i campi generati dalle due superfici risulteranno uguali in modulo ed opposti in verso, quindi la loro somma sarà nulla, da cui il grafico sottostante.
+</p>  
+<br><br>
+
+<center>     
+  <img  class="ridimensionamento" src="../../images/grafico_piano_indefinito.svg"  alt="Not found!">
+</center>   
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+<!-- ********************************-->
+<!--QUI E' FINITA LA PAGINA -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--QUI INIZIA IL PIE' PAGINA -->
+<!-- ********************************-->
+
+
+
+
+<footer style="background-color:#3d5a8000"> 
+
+  <hr>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+
+      <a href="../../index.html"><img  style=" position: relative; z-index: 999; width: 220px; top: -50px;" src="../../images/Logicamente.svg" ></a>
+      <!--LOGOSOTTO-->
+
+
+    <h3 style="font-family: 'Montserrat'; position: relative; top: -30px;">Se ti è piaciuta la lezione puoi condividerla su:</h3>
+    </center>
+
+  
+      
+           
+    <div class="share-btn-container">
+
+      <a id="facebook" href="#" class="facebook-btn"> 
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a id="twitter" href="#"class="twitter-btn"> 
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a id="instagram" href="#"class="instagram-btn"> 
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a id="telegram" href="https://telegram.me/share/url?url=" onclick="window.open('https://telegram.me/share/url?url=='+encodeURIComponent(location.href)+'&bodytext=&tags=&text='+encodeURIComponent(document.title));return false;"rel="nofollow" title="invia con telegram">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a id="whatsapp"href="#"class="whatsapp-btn"> 
+        <i class="fab fa-whatsapp"></i>
+      </a>
+  
+    </div>
+
+   
+ <!--
+  <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-share-url="https://core.telegram.org/widgets/share"></script>
+ -->
+ 
+  <script src="main.js"></script>
+
+
+
+
+  <div class="hormenufooter">
+    <ul >  
+  
+      <li> 
+        <a id="home" href="../../index.html">Home </a> 
+      </li>
+  
+      <li> 
+        <a id="altro"href="../../Altro.html" > Altro</a>
+      </li>
+  
+      <li> 
+        <a id="contatti" href="../../Contatti.html"> Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+      <li> 
+        <a id="termini_condizioni" href="../../termini_condizioni.html" TARGET="new target">  Termini&nbspe&nbspcondizioni </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+      <li> 
+        <a id="privacy_policy" href="../../privacy.html" TARGET="new target">  Privacy&nbspPolicy </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+    </ul>
+  </div> 
+
+
+
+
+
+
+</footer>
+
+
+</html>

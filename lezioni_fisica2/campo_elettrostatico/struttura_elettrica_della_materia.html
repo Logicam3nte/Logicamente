@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- link per riferirsi al file css-->
+    <link rel="stylesheet" href="../../style1.css">
+    <link rel="stylesheet" href="style_chi_siamo.css">
+   
+
+    <title>Logicamente</title>
+
+    <!-- link per riferirsi all'immagine da mettere come icona del sito --> 
+    <link rel="icon" href="../../images/Logicamente-little.svg" type="image/icon type">
+
+    <!-- meta usato per definire nel file css le modifiche sel sito  --> 
+    <!-- in base alla grandezza di visualizzazione (versione Desktop o mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- per titoli grossi -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+  <!--script usato per la libreria LATEX-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--link e script usato per i bottoni social media sharing-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+</head>
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU -->
+<!-- ********************************-->
+
+  <div class="wrapper">
+  <a href="../../index.html"><img id="logo" class="position-logo" src="../../images/Logicamente.svg" > 
+  <!--LOGO-->
+  </div>
+
+
+<div id="hormenu">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> <a id="matematica" href="../../Matematica.html"> Matematica </a>   
+      <ul> 
+        <li><a id="analisi" href="../../Analisi1.html">Analisi I</a></li>
+        <li><a id="analisi" href="../../Analisi2.html">Analisi II</a></li>
+      </ul> 
+    </li>
+
+    <li> <a id="fisics" href="../../Fisica.html"> Fisica </a>
+      <ul> 
+        <li><a id="fisica" href="../../Fisica1.html">Fisica I</a></li>
+        <li><a id="fisica" href="../../Fisica2.html">Fisica II</a></li>
+      </ul> 
+    </li>
+
+    <li> 
+      <a id="altro"href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a id="chisiamo" href="../../Chi_siamo.html" > Chi siamo </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+
+    <li> 
+      <a id="contatti" href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+   
+  </ul>
+</div> 
+
+
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--********************-->
+<!--*****QUI INIZIA*****-->
+<!--barra di navigazione-->
+<!--********************-->
+<!--
+<form id="search_form" action="/Matematica.html" method="post">
+  <input id="search" type="text" list="suggestion" size="30px" name="keyword" placeholder=" Search...">
+    <datalist id="suggestion">
+     <option>Matematica</option>
+      <option>AnalisiI</option>
+      <option>AnalisiII</option>
+      <option>Fisica</option>
+      <option>FisicaI</option>
+      <option>FisicaII</option>
+    </datalist>
+</form>
+
+-->
+
+<!--
+
+<div class="wrapper2">
+  <img href="#" class="position" id="searchicon" src="/images/outline_search_black_24dp.png">
+</div>
+-->
+
+
+
+
+
+
+<!--tasto info-->
+<div class="wrapper2">
+  <a href="../../privacy.html" TARGET="new target"><img class="position" id="accedi"  src="../../images/help_black_24dpv2.svg"></a>
+</div>
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU2 -->
+<!-- ********************************-->
+<div id="hormenu2">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> 
+      <a id="Matematica" href="../../Matematica.html"> Matematica </a>      
+    </li>
+
+    <li> 
+      <a  href="../../Fisica.html"> Fisica </a>
+    </li>
+
+    <li> 
+      <a  href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a class="chi_siamo" href="../../Chi_siamo.html" > Chi&nbspsiamo</a>
+    </li>
+
+
+
+    <li> 
+      <a  href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+  </ul>
+</div>  
+
+
+
+
+
+<!--hamburger-->
+<a  href="javascript:void(0);" onclick="myFunction()" class="icon" > <img class="position" id="hamburger" src="../../images/outline_menu_black_24dp.png"></a>
+ 
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("hormenu2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+</script>
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU2 -->
+<!-- ********************************-->
+
+
+
+
+
+
+<!-- *******************************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL CORPO DELLA PAGINA -->
+<!-- ********************************-->
+
+<body style="background-color:rgba(0, 0, 0, 0)">
+  
+
+    <center>
+        <br>
+        <hr>
+        <h2 style=" margin: 20px;">Struttura elettrica della materia</h2>
+        <hr>
+        <br>
+      </center>
+
+
+
+<p>
+La materia stabile è composta da elementi microscopici definiti <b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">ATOMI</b>, 
+la cui struttura è composta da un nucleo attorno cui ruotano gli <b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">ELETTRONI (e)</b>
+, che possiedono carica negativa.<br> 
+Il nucleo a sua volta è composto da <b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">PROTONI (p)</b>
+, con carica positiva, e da <b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">NEUTRONI (n)</b> che non possiedono carica per definizione.
+(L'insieme di Protoni e Neutroni formano particelle subnucleari dette Nucleoni).
+<br><br>
+
+</p>
+
+
+<p>
+ 
+Millikan scoprì che i Protoni e Neutroni hanno una struttura interna, composta da <b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">QUARK</b>, che risultarono essere 
+particelle multiple della carica elementare (e); grazie all'esperimento di Millikan perciò si riuscì a stabilire la natura 
+<b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">QUANTIZZATA</b> della carica elettrica.
+</p>
+
+
+<p>
+ Per avere un'idea quantitativa della natura microscopica della materia si può affermare che la massa del protone può essere approssimata a quella del neutrone, ossia:
+</p>
+
+<p style="color:rgb(0, 0, 0);">
+  $$  m_p\simeq m_n\simeq1,67\cdot10^{-27}kg  $$
+</p>
+
+<p>
+mentre la massa dell'elettone è estremamente più piccola:
+</p>
+
+<p style="color:rgb(0, 0, 0);">
+  $$  m_e \simeq 9,11 \cdot 10^{-31} kg  $$
+</p>
+
+<br>
+
+
+
+<p>
+Il numero di Protoni all'interno di un nucleo atomico prende il nome di 
+<b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">NUMERO ATOMICO (Z)</b>, mentre la somma fra Numero Atomico (e quindi numero di Protoni nell'atomo) e numero di Neutroni
+prende il nome di <b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">NUMERO DI MASSA (A)</b>.
+</p>
+
+<br><br>
+<hr>
+<br><br>
+
+
+<p>
+Può essere fatta quindi una distinzione fra materiali <b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">ISOLANTI</b> e 
+<b style="color:rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;">CONDUTTORI</b> dal punto di vista atomico: 
+</p>
+  
+<p>
+ I)ISOLANTI: gli elettroni sono molto legati al nucleo, non trasportano perciò facilmente la carica;
+</p>
+
+<p>
+II)CONDUTTORI: gli elettroni si trasferiscono facilmente da un corpo all'altro perchè poco legati al nucleo, e lo fanno distribuendosi su tutta la superficie del conduttore (configurazione DISTRIBUITA della carica);
+</p>
+
+<br><br>
+<hr>
+<br><br>
+
+
+<p>
+Si può inoltre definire una serie di modi in cui avviene l'elettrizzazione di un corpo:
+</p>
+
+<p>
+  I)STROFINIO;
+</p>
+ 
+ <p>
+ II)CONTATTO;
+  </p>
+
+<p>
+III)INDUZIONE ELETTROSTATICA: cioè senza alcun contatto; in questo caso le cariche sulla superficie del corpo da elettrizzare si ridistribuiscono 
+seguendo le leggi dell'elettrostatica. Se il corpo avvicinato è caricato positivamente, le cariche sulla superficie dell'altro corpo saranno 
+negative sulla regione di corpo più vicina al primo corpo 
+</p>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+<!-- ********************************-->
+<!--QUI E' FINITA LA PAGINA -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--QUI INIZIA IL PIE' PAGINA -->
+<!-- ********************************-->
+
+
+
+
+<footer style="background-color:#3d5a8000"> 
+
+  <hr>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+
+      <a href="../../index.html"><img  style=" position: relative; z-index: 999; width: 220px; top: -50px;" src="../../images/Logicamente.svg" ></a>
+      <!--LOGOSOTTO-->
+
+
+    <h3 style="font-family: 'Montserrat'; position: relative; top: -30px;">Se ti è piaciuta la lezione puoi condividerla su:</h3>
+    </center>
+
+  
+      
+           
+    <div class="share-btn-container">
+
+      <a id="facebook" href="#" class="facebook-btn"> 
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a id="twitter" href="#"class="twitter-btn"> 
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a id="instagram" href="#"class="instagram-btn"> 
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a id="telegram" href="https://telegram.me/share/url?url=" onclick="window.open('https://telegram.me/share/url?url=='+encodeURIComponent(location.href)+'&bodytext=&tags=&text='+encodeURIComponent(document.title));return false;"rel="nofollow" title="invia con telegram">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a id="whatsapp"href="#"class="whatsapp-btn"> 
+        <i class="fab fa-whatsapp"></i>
+      </a>
+  
+    </div>
+
+   
+ <!--
+  <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-share-url="https://core.telegram.org/widgets/share"></script>
+ -->
+ 
+  <script src="main.js"></script>
+
+
+
+
+  <div class="hormenufooter">
+    <ul >  
+  
+      <li> 
+        <a id="home" href="../../index.html">Home </a> 
+      </li>
+  
+      <li> 
+        <a id="altro"href="../../Altro.html" > Altro</a>
+      </li>
+  
+      <li> 
+        <a id="contatti" href="../../Contatti.html"> Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+      <li> 
+        <a id="termini_condizioni" href="../../termini_condizioni.html" TARGET="new target">  Termini&nbspe&nbspcondizioni </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+      <li> 
+        <a id="privacy_policy" href="../../privacy.html" TARGET="new target">  Privacy&nbspPolicy </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+    </ul>
+  </div> 
+
+
+
+
+
+
+</footer>
+
+
+
+</html>

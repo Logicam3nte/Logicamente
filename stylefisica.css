@@ -1,0 +1,201 @@
+/***********************************/
+/* foglio di stile per pagina "Altro" */
+/***********************************/
+
+.gridfisica{
+    position: absolute;
+    width: 40%;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 0px;
+}
+
+.grid-genitorefisica{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+}
+
+.sfondofisica{ 
+    width: 120%;
+    height: 70%;
+    background-color: #98c1d934;
+    border-radius: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sfondo1fisica{ 
+    width: 120%;
+    height: 70%;
+    background-color: #98c1d934;
+    border-radius: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sfondofisica p{
+    font-size: 190%;
+    margin-top: 20px;
+}
+
+
+.sfondo1fisica p{
+    font-size: 190%;
+    margin-top: 20px;
+}
+
+
+#immaginefisica1{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#immaginefisica2{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1300px) { 
+
+
+    .gridfisica{
+        position: absolute;
+        width: 70%;
+        margin-left: 10%;
+        margin-right: 30%;
+        margin-top: 0px;
+    }
+    
+    .grid-genitorefisica{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+    }
+    
+    .sfondofisica{ 
+        width: 120%;
+        height: 70%;
+        background-color: #98c1d934;
+        border-radius: 50px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .sfondo1fisica{ 
+        width: 120%;
+        height: 70%;
+        background-color: #98c1d934;
+        border-radius: 50px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .sfondofisica p{
+        font-size: 190%;
+        margin-top: 20px;
+    }
+    
+    
+    .sfondo1fisica p{
+        font-size: 190%;
+        margin-top: 20px;
+    }
+    
+    
+    #immaginefisica1{
+        position: relative;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    
+    #immaginefisica2{
+        position: relative;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+
+}
+
+
+
+@media (max-width: 480px) { 
+
+
+    .gridfisica{
+        position: absolute;
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 30%;
+        margin-top: 0px;
+    }
+    
+    .grid-genitorefisica{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    
+    .sfondofisica{ 
+        width: 120%;
+        height: 70%;
+        background-color: #98c1d934;
+        border-radius: 50px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .sfondo1fisica{ 
+        width: 120%;
+        height: 70%;
+        background-color: #98c1d934;
+        border-radius: 50px;
+        padding-bottom: 50px;
+        
+    }
+    
+    .sfondofisica p{
+        font-size: 190%;
+        margin-top: 20px;
+    }
+    
+    
+    .sfondo1fisica p{
+        font-size: 190%;
+        margin-top: 20px;
+    }
+    
+    
+    #immaginefisica1{
+        position: relative;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    #immaginefisica2{
+        position: relative;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+

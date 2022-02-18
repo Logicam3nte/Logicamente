@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- link per riferirsi al file css-->
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="stylealtro.css">
+
+    <title>Logicamente</title>
+
+    <!-- link per riferirsi all'immagine da mettere come icona del sito --> 
+    <link rel="icon" href="images/Logicamente-little.svg" type="image/icon type">
+
+    <!-- meta usato per definire nel file css le modifiche sel sito  --> 
+    <!-- in base alla grandezza di visualizzazione (versione Desktop o mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- per titoli grossi -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+  <!--script usato per la libreria LATEX-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--link e script usato per i bottoni social media sharing-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+</head>
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU -->
+<!-- ********************************-->
+
+  <div class="wrapper">
+  <a href="index.html"><img id="logo" class="position-logo" src="images/Logicamente.svg" > 
+  <!--LOGO-->
+  </div>
+
+
+<div id="hormenu">
+  <ul >  
+
+    <li> 
+      <a id="home" href="index.html">Home </a> 
+    </li>
+
+    <li> <a id="matematica" href="Matematica.html"> Matematica </a>   
+      <ul> 
+        <li><a id="analisi" href="Analisi1.html">Analisi I</a></li>
+        <li><a id="analisi" href="Analisi2.html">Analisi II</a></li>
+      </ul> 
+    </li>
+
+    <li> <a id="fisics" href="Fisica.html"> Fisica </a>
+      <ul> 
+        <li><a id="fisica" href="Fisica1.html">Fisica I</a></li>
+        <li><a id="fisica" href="Fisica2.html">Fisica II</a></li>
+      </ul> 
+    </li>
+
+    <li> 
+      <a id="altro"href="Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a id="chisiamo" href="Chi_siamo.html" > Chi siamo </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+
+    <li> 
+      <a id="contatti" href="Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+   
+  </ul>
+</div> 
+
+
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--********************-->
+<!--*****QUI INIZIA*****-->
+<!--barra di navigazione-->
+<!--********************-->
+<!--
+<form id="search_form" action="/Matematica.html" method="post">
+  <input id="search" type="text" list="suggestion" size="30px" name="keyword" placeholder=" Search...">
+    <datalist id="suggestion">
+     <option>Matematica</option>
+      <option>AnalisiI</option>
+      <option>AnalisiII</option>
+      <option>Fisica</option>
+      <option>FisicaI</option>
+      <option>FisicaII</option>
+    </datalist>
+</form>
+
+-->
+
+<!--
+
+<div class="wrapper2">
+  <img href="#" class="position" id="searchicon" src="/images/outline_search_black_24dp.png">
+</div>
+-->
+
+
+
+
+
+
+<!--tasto info-->
+<div class="wrapper2">
+  <a href="privacy.html" TARGET="new target"><img class="position" id="accedi"  src="images/help_black_24dpv2.svg"></a>
+</div>
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU2 -->
+<!-- ********************************-->
+<div id="hormenu2">
+  <ul >  
+
+    <li> 
+      <a id="home" href="index.html">Home </a> 
+    </li>
+
+    <li> 
+      <a id="Matematica" href="Matematica.html"> Matematica </a>      
+    </li>
+
+    <li> 
+      <a  href="Fisica.html"> Fisica </a>
+    </li>
+
+    <li> 
+      <a  href="Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a class="chi_siamo" href="Chi_siamo.html" > Chi&nbspsiamo</a>
+    </li>
+
+
+
+    <li> 
+      <a  href="Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+  </ul>
+</div>  
+
+
+
+
+
+<!--hamburger-->
+<a  href="javascript:void(0);" onclick="myFunction()" class="icon" > <img class="position" id="hamburger" src="images/outline_menu_black_24dp.png"></a>
+ 
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("hormenu2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+</script>
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU2 -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+<!-- *******************************************************************************************************-->
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL CORPO DELLA PAGINA -->
+<!-- ********************************-->
+
+<body>
+  <br>
+  <hr>
+  <h1 style="font-size: 50px;">Corsi Universitari</h1>
+  <hr> 
+
+  <br>
+  <br>
+  <section class="grid">
+    <!-- <p id="titolomatematica" style="font-size: 150%; background-color: #98c1d900; border-radius: 50px; ">Matematica:</p> -->
+    <div class="grid-genitore">
+
+        <div class="sfondo">
+          <a href="Analisi1.html"> <img id="immagineanalisi1"src="images/Analisi_I.svg" width=60% alt="Not found!"></a>
+            <p style="text-align: center; color: black; ">Analisi I</p>
+        </div>
+
+        <div class="sfondo1">
+          <a href="Analisi2.html"><img id="immagineanalisi2"src="images/Analisi_II.svg"  width=60% alt="Not found!"></a>
+          <p style="text-align: center ; color: black; ">Analisi II</p>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<section class="grid2">
+ <!-- <p id="titolofisica" style="font-size: 150%; background-color: #98c1d900; border-radius: 50px; ">Fisica:</p> -->
+  <div class="grid-genitore2">
+
+      <div class="sfondo2">
+        <a href="Fisica1.html"> <img id="immaginefisica1"src="images/Fisica_I.svg" width=60% alt="Not found!"></a>
+          <p style="text-align: center; color: #000000; ">Fisica I</p>
+      </div>
+
+      <div class="sfondo3">
+        <a href="Fisica2.html"><img id="immaginefisica2"src="images/Fisica_II.svg"  width=60% alt="Not found!"></a>
+        <p style="text-align: center ; color: black; ">Fisica II</p>
+      </div>
+
+
+  </div>
+</section>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<hr>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+  <br>
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+</body>
+
+
+<!-- ********************************-->
+<!--QUI E' FINITA LA PAGINA -->
+<!-- ********************************-->
+
+
+
+
+<footer style="background-color:#3d5a8000"> 
+
+  <hr>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+
+      <a href="index.html"><img  style=" position: relative; z-index: 999; width: 220px; top: -50px;" src="images/Logicamente.svg" ></a>
+      <!--LOGOSOTTO-->
+
+
+    <h3 style="font-family: 'Montserrat'; position: relative; top: -30px;">Se ti piace questa pagina puoi condividerla su:</h3>
+    </center>
+
+  
+      
+      <div class="share-btn-container">
+
+        <a id="facebook" href="#" class="facebook-btn"> 
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a id="twitter" href="#"class="twitter-btn"> 
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a id="instagram" href="#"class="instagram-btn"> 
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a id="telegram" href="https://telegram.me/share/url?url=" onclick="window.open('https://telegram.me/share/url?url=='+encodeURIComponent(location.href)+'&bodytext=&tags=&text='+encodeURIComponent(document.title));return false;"rel="nofollow" title="invia con telegram">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a id="whatsapp"href="#"class="whatsapp-btn"> 
+          <i class="fab fa-whatsapp"></i>
+        </a>
+    
+      </div>
+  
+   
+ <!--
+  <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-share-url="https://core.telegram.org/widgets/share"></script>
+ -->
+ 
+  <script src="main.js"></script>
+
+
+  
+
+
+
+  <div class="hormenufooter">
+    <ul >  
+  
+      <li> 
+        <a id="home" href="index.html">Home </a> 
+      </li>
+  
+      <li> 
+        <a id="altro"href="Altro.html" > Altro</a>
+      </li>
+  
+      <li> 
+        <a id="contatti" href="Contatti.html"> Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+      
+      <li> 
+        <a id="termini_condizioni" href="termini_condizioni.html" TARGET="new target">  Termini&nbspe&nbspcondizioni </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+      <li> 
+        <a id="privacy_policy" href="privacy.html" TARGET="new target"> Privacy&nbspPolicy </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+    </ul>
+  </div> 
+
+
+
+
+
+
+</footer>
+
+
+
+</html>

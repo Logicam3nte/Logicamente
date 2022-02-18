@@ -1,0 +1,933 @@
+@media (max-width: 2500px) {
+
+
+
+    #facile{
+        position: absolute;
+        margin-top: 80px;
+        font-size: 300%;
+    }
+    
+
+
+    #facile1{
+        position: absolute;
+        margin-top: -300px;
+        font-size: 300%;
+    }
+    
+
+
+    #facile2{
+        position: absolute;
+        margin-top: -500px;
+        font-size: 300%;
+    }
+
+
+
+
+
+
+
+    body {
+        margin-right: -15px;
+        margin-left: -15px;
+      }
+      
+      .contenitore {
+        height: 110vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        perspective: 10px;
+      }
+      
+      header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        transform-style: preserve-3d;
+        z-index: -1;
+      }
+      
+      .background {
+        transform: translateZ(-10px) scale(2);
+       /* background-repeat: repeat-y;*/
+      }
+      
+      .foreground {
+        transform: translateZ(-5px) scale(1.0);
+      }
+      
+
+      .background {
+        position: absolute;
+        height: 200%;
+        width: 200%;
+       /*object-fit: cover;*/
+        z-index: -1;
+       
+      }
+  
+
+      .foreground{
+        position: absolute;
+        height: 100%;
+        width: 110%;
+       /* object-fit: cover;*/
+        z-index: -1;
+
+      }
+
+      .titolo {
+        position: absolute;
+        top: 0px;
+        font-size: 90px;
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 40px rgb(255, 255, 255);
+      }
+
+
+      .titolo1 {
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 0px black;;
+    }
+
+
+    .titolo2 {
+        position: absolute;
+        top: 150%;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 0px black;;
+    }
+
+
+      
+    .titolo3 {
+        position: absolute;
+        top: 250%;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+         text-shadow: 0 0 0px black;;
+        }
+    
+
+      /*
+
+      section {
+        font-size: 2rem;
+        padding: 2rem;
+        background-color: #333;
+        color: white;
+      }
+
+        */
+
+
+
+
+        .griglia{
+          position: absolute;
+          width: 80%;
+        
+      
+        }
+  
+      .griglia-parente{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 2em;
+         
+       
+      }
+  
+      .carta1{ 
+          width: 90%;
+          background-color: #98c1d9e0;
+          border-radius: 50px;
+          padding-top: 50px;
+          padding-bottom: 40px;
+      }
+
+      
+      .carta2{ 
+        width: 90%;
+        background-color: #98c1d9e0;
+        border-radius: 50px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    
+    }
+
+  
+    .carta3{ 
+      width: 90%;
+      background-color: #98c1d9e0;
+      border-radius: 50px;
+      padding-top: 50px;
+      padding-bottom: 40px;
+  
+  }
+
+      .carta1 p{
+          font-size: 190%;
+      }
+  
+      .carta2 p{
+        font-size: 190%;
+    }
+
+    .carta3 p{
+      font-size: 190%;
+  }
+
+
+  #facebook2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+    color:#1877f2;
+
+    background-color: rgb(255, 255, 255);
+    background-size: 150px;
+    width: 80px;
+    height:87px;
+    border-radius: 50px;
+    padding-left: 4px;  
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+
+
+    text-decoration: none;
+  }
+
+
+  #twitter2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+    color: #1da1f2;
+
+    text-decoration: none;
+  }
+
+
+
+  #instagram2{
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 100px;
+    color: white;
+    background: linear-gradient(to bottom, #833ab4 0%, #c52525 50%, #f77737 90%);
+  
+    background-size: 150px;
+  width: 100px;
+  height:100px;
+ 
+
+    border-radius: 20px;
+   
+    padding-left: 4px;  
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+
+    text-decoration: none
+
+  }
+
+  #titolone{
+    font-size: 300%;
+     background-color: #98c1d9c4; 
+     border-radius: 50px;
+  }
+  
+  
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1650px) {
+
+/*
+
+  #sfondo{
+
+    visibility: hidden;
+    
+  }
+  
+ */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+
+
+    #facile{
+        position: absolute;
+        margin-top: 80px;
+        font-size: 200%;
+    }
+    
+    
+    #facile1{
+        position: absolute;
+        margin-top: 80px;
+        font-size: 200%;
+    }
+    
+
+
+    #facile2{
+        position: absolute;
+        margin-top: 80px;
+        font-size: 200%;
+    }
+    
+
+
+
+
+
+
+
+
+    body {
+        margin: 0px;
+      }
+      
+      .contenitore {
+        height: 120vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        perspective: 10px;
+      }
+      
+      header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        transform-style: preserve-3d;
+        z-index: -1;
+      }
+      
+      .background {
+        transform: translateZ(-10px) scale(2);
+      }
+      
+      .foreground {
+        transform: translateZ(-5px) scale(1.0);
+      }
+      
+
+      .background {
+        position: absolute;
+        height: 120%;
+        width: 100%;
+       object-fit: cover;
+        z-index: -1;
+      }
+  
+
+      .foreground{
+        position: absolute;
+        top: -150px;
+        height: 100%;
+        width: 120%;
+       /* object-fit: cover;*/
+        z-index: -1;
+
+      }
+
+      .titolo {
+        position: absolute;
+        top: 0px;
+        font-size: 70px;
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 40px rgb(255, 255, 255);
+      }
+
+
+      .titolo1 {
+        position: absolute;
+        top: 250px;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 0px black;
+    }
+
+
+    .titolo2 {
+        position: absolute;
+        top: 820px;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 0px black;
+    }
+
+
+      
+    .titolo3 {
+        position: absolute;
+        top: 1400px;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+         text-shadow: 0 0 0px black;
+        }
+    
+      /*
+      section {
+        font-size: 2rem;
+        padding: 2rem;
+        background-color: #333;
+        color: white;
+      }
+
+*/
+
+
+
+
+.griglia{
+  position: absolute;
+  top: 1100px;
+  width: 80%;
+  padding: 2%;
+  border-radius: 15%;
+  background-color: #98c1d9;
+
+}
+
+.griglia-parente{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+ 
+
+}
+
+.carta1{ 
+  width: 90%;
+  background-color: #98c1d900;
+  border-radius: 50px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+
+.carta2{ 
+width: 90%;
+background-color: #98c1d900;
+border-radius: 50px;
+padding-top: 50px;
+padding-bottom: 40px;
+
+}
+
+
+.carta3{ 
+width: 90%;
+background-color: #98c1d900;
+border-radius: 50px;
+padding-top: 50px;
+padding-bottom: 40px;
+
+}
+
+.carta1 p{
+  font-size: 190%;
+}
+
+.carta2 p{
+font-size: 190%;
+}
+
+.carta3 p{
+font-size: 190%;
+}
+
+
+#facebook2{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: 100px;
+color:#1877f2;
+
+
+background-color: rgb(255, 255, 255);
+background-size: 150px;
+width: 70px;
+height:85px;
+border-radius: 50px;
+padding-left: 4px;  
+padding-right: 4px;
+padding-bottom: 4px;
+padding-top: 4px;
+
+text-decoration: none;
+}
+
+
+#twitter2{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: 100px;
+color: #1da1f2;
+
+text-decoration: none;
+}
+
+
+
+#instagram2{
+
+position: relative;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-size: 100px;
+color: white;
+background: linear-gradient(to bottom, #833ab4 0%, #c52525 50%, #f77737 90%);
+
+background-size: 150px;
+width: 100px;
+height:100px;
+
+
+border-radius: 25px;
+
+padding-left: 4px;  
+padding-right: 4px;
+padding-bottom: 4px;
+padding-top: 4px;
+
+text-decoration: none
+
+}
+
+#titolone{
+font-size: 300%;
+background-color: #98c1d900; 
+border-radius: 50px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+
+    #facile{
+        position: absolute;
+        margin-top: -20px;
+        font-size: 100%;
+    }
+    
+    
+    #facile1{
+        position: absolute;
+        margin-top: -100px;
+        font-size: 100%;
+    }
+    
+
+
+    #facile2{
+        position: absolute;
+        margin-top: -200px;
+        font-size: 100%;
+       
+    }
+    
+    .titolo {
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 0px black;;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      body {
+        margin: 0px;
+      }
+      
+      .contenitore {
+        height: 120vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        perspective: 10px;
+      }
+      
+      header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        transform-style: preserve-3d;
+        z-index: -1;
+      }
+      
+      .background {
+        transform: translateZ(-10px) scale(1);
+      }
+      
+      .foreground {
+        transform: translateZ(-5px) scale(1.0);
+      }
+      
+
+      .background {
+        position: absolute;
+        top: -550px;
+        height: 200%;
+        width: 200%;
+        object-fit: cover;
+        z-index: -1;
+      }
+  
+
+      .foreground{
+        position: absolute;
+        top: -250px;
+        height: 90%;
+        width: 120%;
+       /* object-fit: cover;*/
+        z-index: -1;
+
+      }
+
+      .titolo {
+        position: absolute;
+        top: 0px;
+        font-size: 60px;
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 40px rgb(255, 255, 255);
+      }
+
+
+      .titolo1 {
+        position: absolute;
+        top: 300px;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 0px black;
+    }
+
+
+    .titolo2 {
+        position: absolute;
+        top: 700px;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 0px black;
+    }
+
+
+      
+    .titolo3 {
+        position: absolute;
+        top: 1200px;
+        font-size: 7rem;
+        color: rgb(0, 0, 0);
+         text-shadow: 0 0 0px black;
+        }
+    
+      /*
+      section {
+        font-size: 2rem;
+        padding: 2rem;
+        background-color: #333;
+        color: white;
+      }
+
+*/
+
+
+
+
+.griglia{
+  position: absolute;
+  top: 900px;
+  width: 90%;
+
+
+}
+
+.griglia-parente{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+ 
+
+}
+
+.carta1{ 
+  width: 100%;
+  height: 55%;
+  background-color: #98c1d900;
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+
+.carta2{ 
+width: 100%;
+height: 50%;
+background-color: #98c1d900;
+border-radius: 20px;
+padding-top: 50px;
+padding-bottom: 20px;
+
+}
+
+
+.carta3{ 
+width: 100%;
+height: 50%;
+background-color: #98c1d900;
+border-radius: 20px;
+padding-top: 50px;
+padding-bottom: 20px;
+
+}
+
+.carta1 p{
+  font-size: 100%;
+  position: relative;
+top: -15px;
+}
+
+.carta2 p{
+font-size: 100%;
+position: relative;
+top: -15px;
+}
+
+.carta3 p{
+font-size: 100%;
+position: relative;
+top: -20px;
+}
+
+
+#facebook2{
+position: relative;
+top: -10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: 50px;
+color:#1877f2;
+
+background-color: rgb(255, 255, 255);
+background-size: 150px;
+width: 40px;
+height:40px;
+border-radius: 50px;
+padding-left: 4px;  
+padding-right: 4px;
+padding-bottom: 4px;
+padding-top: 4px;
+
+text-decoration: none;
+}
+
+
+#twitter2{
+position: relative;
+top: -10px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: 50px;
+color: #1da1f2;
+
+text-decoration: none;
+}
+
+
+
+#instagram2{
+
+position: relative;
+top: -15px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-size: 50px;
+color: white;
+background: linear-gradient(to bottom, #833ab4 0%, #c52525 50%, #f77737 90%);
+
+background-size: 150px;
+width: 50px;
+height:50px;
+
+
+border-radius: 20px;
+
+padding-left: 4px;  
+padding-right: 4px;
+padding-bottom: 4px;
+padding-top: 4px;
+
+text-decoration: none
+
+}
+
+/*
+#sfondo{
+
+  visibility: hidden;
+}
+*/
+#titolone{
+  font-size: 200%;
+   background-color: #98c1d900; 
+   padding-left: 8px;  
+   padding-right: 8px;
+   padding-bottom: 8px;
+   padding-top: 8px;
+   border-radius: 50px;
+}
+
+
+
+footer{
+position: relative;
+top: 200px;
+
+}
+
+}

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- link per riferirsi al file css-->
+    <link rel="stylesheet" href="style1.css">
+
+    <title>Logicamente</title>
+
+    <!-- link per riferirsi all'immagine da mettere come icona del sito --> 
+    <link rel="icon" href="images/Logicamente-little.svg" type="image/icon type">
+
+    <!-- meta usato per definire nel file css le modifiche sel sito  --> 
+    <!-- in base alla grandezza di visualizzazione (versione Desktop o mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- per titoli grossi -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+  <!--script usato per la libreria LATEX-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--link e script usato per i bottoni social media sharing-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+</head>
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU -->
+<!-- ********************************-->
+
+  <div class="wrapper">
+  <a href="index.html"><img id="logo" class="position-logo" src="images/Logicamente.svg" > 
+  <!--LOGO-->
+  </div>
+
+
+  <div id="hormenu">
+    <ul >  
+  
+      <li> 
+        <a id="home" href="index.html">Home </a> 
+      </li>
+  
+      <li> <a id="matematica" href="Matematica.html"> Matematica </a>   
+        <ul> 
+          <li><a id="analisi" href="Analisi1.html">Analisi I</a></li>
+          <li><a id="analisi" href="Analisi2.html">Analisi II</a></li>
+        </ul> 
+      </li>
+  
+      <li> <a id="fisics" href="Fisica.html"> Fisica </a>
+        <ul> 
+          <li><a id="fisica" href="Fisica1.html">Fisica I</a></li>
+          <li><a id="fisica" href="Fisica2.html">Fisica II</a></li>
+        </ul> 
+      </li>
+  
+      <li> 
+        <a id="altro"href="Altro.html" > Altro</a>
+      </li>
+  
+      <li> 
+        <a id="chisiamo" href="Chi_siamo.html" > Chi siamo </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+  
+      <li> 
+        <a id="contatti" href="Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+      
+     
+    </ul>
+  </div> 
+
+
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--********************-->
+<!--*****QUI INIZIA*****-->
+<!--barra di navigazione-->
+<!--********************-->
+<!--
+<form id="search_form" action="/Matematica.html" method="post">
+  <input id="search" type="text" list="suggestion" size="30px" name="keyword" placeholder=" Search...">
+    <datalist id="suggestion">
+     <option>Matematica</option>
+      <option>AnalisiI</option>
+      <option>AnalisiII</option>
+      <option>Fisica</option>
+      <option>FisicaI</option>
+      <option>FisicaII</option>
+    </datalist>
+</form>
+
+-->
+
+<!--
+
+<div class="wrapper2">
+  <img href="#" class="position" id="searchicon" src="/images/outline_search_black_24dp.png">
+</div>
+-->
+
+
+
+
+<!--tasto info-->
+<div class="wrapper2">
+  <a href="privacy.html" TARGET="new target"><img class="position" id="accedi"  src="images/help_black_24dpv2.svg"></a>
+</div>
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU2 -->
+<!-- ********************************-->
+<div id="hormenu2">
+  <ul >  
+
+    <li> 
+      <a id="home" href="index.html">Home </a> 
+    </li>
+
+    <li> 
+      <a id="Matematica" href="Matematica.html"> Matematica </a>      
+    </li>
+
+    <li> 
+      <a  href="Fisica.html"> Fisica </a>
+    </li>
+
+    <li> 
+      <a  href="Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a class="chi_siamo" href="Chi_siamo.html" > Chi&nbspsiamo</a>
+    </li>
+
+
+
+    <li> 
+      <a  href="Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+  </ul>
+</div>  
+
+
+
+
+
+
+<!--hamburger-->
+<a  href="javascript:void(0);" onclick="myFunction()" class="icon" > <img class="position" id="hamburger" src="images/outline_menu_black_24dp.png"></a>
+ 
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("hormenu2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+</script>
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU2 -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+<!-- *******************************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL CORPO DELLA PAGINA -->
+<!-- ********************************-->
+
+<body>
+
+
+  <br>
+  <hr>
+<h1 id="privacy">PRIVACY POLICY</h1>
+
+<hr>
+
+<br>
+
+<p>
+  <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">Ti invitiamo a leggere con attenzione la seguente privacy policy prima 
+    di navigare e utilizzare i servizi presenti sul sito Logicamente da qui in avanti definito "Sito".
+    Navigando e/o utilizzando i servizi presenti sul sito accetti integralmente la presente privacy policy.</b>
+</p>
+
+
+<br><br>
+
+<h2 style="text-align: left;">Visitatori del sito web e raccolta di informazioni</h2>
+
+
+<p>
+  Il Sito Logicamente NON colleziona informazioni che possono identificare la persona, (ad esempio quelli tipicamente resi disponibili da browser e 
+  server come tipo di browser, preferenza della lingua, siti di provenienza e data e ora di ogni richiesta del visitatore), ad eccezione dell'indirizzo e-mail 
+  in seguito a invio facoltativo, esplicito e volontario di posta elettronica, da parte dell'utente, agli indirizzi indicati su questo Sito (disponibili 
+  nella sezione <a href="Contatti.html"> Contatti</a>), necessaria solo ed esclusivamente per rispondere alle richieste. 
+  Il Sito Logicamente NON colleziona alcun altro tipo di informazione secondaria (nome, cognome, numero di telefono o simili), e pertanto NON divulga
+  informazioni di identificazione personale.
+</p>
+
+
+
+<br><br>
+
+<h2 style="text-align: left;">Tempi di conservazione dei dati</h2>
+
+
+<p>
+  I dati raccolti in seguito a invio facoltativo, esplicito e volontario di posta elettronica, da parte dell'utente, agli indirizzi indicati su questo Sito 
+  (disponibili nella sezione <a href="Contatti.html"> Contatti</a>) sono conservati per il tempo necessario adottando ogni cautela per evitare la 
+  conservazione a tempo indeterminato dei dati stessi.
+</p>
+
+
+
+
+<br><br>
+<h2 style="text-align: left;">Link di terze parti</h2>
+
+
+<p>
+  Il Sito Logicamente può contenere link (come collegamenti alle pagine social del Sito o link utilizzati per la ricondivisione delle pagine 
+  del Sito tramite piattaforme esterne) ad altri siti web forniti da terze parti che non sono sotto il controllo del Sito Logicamente. Quando segui un link 
+  e fornisci informazioni a siti web di terze parti, sii consapevole che il Sito Logicamente non è responsabile per i dati che fornisci a tali terze parti. 
+  Questa privacy policy si applica solo al Sito Logicamente, quindi quando visiti altri siti web, anche quando fai clic su un link pubblicato 
+  sul Sito Logicamente, devi leggere la loro privacy policy (diversamente da come accade sul Sito Logicamente, infatti, potrebbero essere richieste 
+  informazioni che possono identificare la persona o altro tipo di informazioni personali).
+</p>
+
+
+<br><br>
+
+<h2 style="text-align: left;">Cookie</h2>
+
+
+<p>
+  Il Sito Logicamente NON fa uso di cookie (generalmente usati da altri siti web come file di testo memorizzati nel tuo computer per raccogliere 
+  informazioni internet standard e informazioni sul comportamento dei visitatori per consentire l'erogazione dei servizi o per semplificare la navigazione) 
+  né utilizza cookie per attività statistiche proprietari o per salvare la sessione dell'utente; Il Sito Logicamente rispetta e tutela la riservatezza dei 
+  visitatori e degli utenti, in ottemperanza agli obblighi di legge derivanti dalle normative nazionali e comunitarie in materia di tutela dei dati personali.  
+ Il Sito Logicamente NON colleziona alcun tipo di informazione derivante da coockie, nè da altre fonti, che può identificare la persona.
+  <br>
+  Pur non usando cookie proprietari, su questo sito web possono essere presenti cookie di terze parti di cui il Sito Logicamente non ha il controllo. 
+  I cookie di terze parti sono gestiti da società esterne tramite widget inseriti sul Sito Logicamente. 
+  Alcuni esempi di cookie di terze parti sono i pulsanti sociali dei social network (Facebook, Twitter, Instagram, Telegram, Whatsapp).
+</p>
+
+
+
+<br><br>
+<h2 style="text-align: left;">Modifiche all'informativa sulla privacy</h2>
+
+<p>
+ Si riserva la libertà di modificare questa Informativa sulla privacy policy di volta in volta, ed a sola discrezione di Logicamente. 
+Pertanto si incoraggiano i visitatori a controllare frequentemente questa pagina per eventuali modifiche alla politica sulla privacy policy.
+ L'uso continuato del Sito Logicamente dopo qualsiasi modifica alla presente Informativa sulla privacy policy costituirà l'accettazione di tale modifica.
+  </p>
+
+
+  <br><br>
+  <h2 style="text-align: left;">Contattaci</h2>
+  
+  <p>
+    Contattaci se hai domande sulla nostra privacy, inviandoci una e-mail a 
+    <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">logicamente.contatti@gmail.com</b>
+     oppure visitando la sezione <a href="Contatti.html"> Contatti</a> sul nostro sito. 
+  </p>
+
+
+  <br><br><br><br><br>
+
+  <p>
+    <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">
+E' altresì altamente consigliata la lettura della sezione <a href="termini_condizioni.html"> Termini e condizioni</a> del nostro Sito. 
+</b>
+  </p>
+
+  <br><br>
+
+
+<br><br>
+
+
+
+
+
+</body>
+
+<!-- ********************************-->
+<!--QUI E' FINITA LA PAGINA -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--QUI INIZIA IL PIE' PAGINA -->
+<!-- ********************************-->
+
+
+
+
+  <footer style="background-color:#3d5a8000"> 
+
+    <hr>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+
+        <a href="index.html"><img  style=" position: relative; z-index: 999; width: 220px; top: -50px;" src="images/Logicamente.svg" ></a>
+        <!--LOGOSOTTO-->
+  
+  
+      <h3 style="font-family: 'Montserrat'; position: relative; top: -30px;">Se ti piace questa pagina puoi condividerla su:</h3>
+      </center>
+  
+    
+        
+        <div class="share-btn-container">
+
+          <a id="facebook" href="#" class="facebook-btn"> 
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a id="twitter" href="#"class="twitter-btn"> 
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a id="instagram" href="#"class="instagram-btn"> 
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a id="telegram" href="https://telegram.me/share/url?url=" onclick="window.open('https://telegram.me/share/url?url=='+encodeURIComponent(location.href)+'&bodytext=&tags=&text='+encodeURIComponent(document.title));return false;"rel="nofollow" title="invia con telegram">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a id="whatsapp"href="#"class="whatsapp-btn"> 
+            <i class="fab fa-whatsapp"></i>
+          </a>
+      
+        </div>
+    
+     
+   <!--
+    <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-share-url="https://core.telegram.org/widgets/share"></script>
+   -->
+   
+    <script src="main.js"></script>
+
+ 
+    
+
+  
+
+    <div class="hormenufooter">
+      <ul >  
+    
+        <li> 
+          <a id="home" href="index.html">Home </a> 
+        </li>
+    
+        <li> 
+          <a id="altro"href="Altro.html" > Altro</a>
+        </li>
+    
+        <li> 
+          <a id="contatti" href="Contatti.html"> Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+        </li>
+        
+        <li> 
+          <a id="termini_condizioni" href="termini_condizioni.html" TARGET="new target">  Termini&nbspe&nbspcondizioni </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+        </li>
+
+
+        <li> 
+          <a id="privacy_policy" href="privacy.html" TARGET="new target"> Privacy&nbspPolicy </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+        </li>
+
+
+      </ul>
+    </div> 
+
+
+
+
+
+
+  </footer>
+
+
+</html>

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- link per riferirsi al file css-->
+    <link rel="stylesheet" href="../../style1.css">
+    <link rel="stylesheet" href="../../style_calcolo_carica.css">
+ 
+
+    <title>Logicamente</title>
+
+    <!-- link per riferirsi all'immagine da mettere come icona del sito --> 
+    <link rel="icon" href="../../images/Logicamente-little.svg" type="image/icon type">
+
+    <!-- meta usato per definire nel file css le modifiche sel sito  --> 
+    <!-- in base alla grandezza di visualizzazione (versione Desktop o mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- per titoli grossi -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+  <!--script usato per la libreria LATEX-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--link e script usato per i bottoni social media sharing-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+</head>
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU -->
+<!-- ********************************-->
+
+  <div class="wrapper">
+  <a href="../../index.html"><img id="logo" class="position-logo" src="../../images/Logicamente.svg" > 
+  <!--LOGO-->
+  </div>
+
+
+<div id="hormenu">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> <a id="matematica" href="../../Matematica.html"> Matematica </a>   
+      <ul> 
+        <li><a id="analisi" href="../../Analisi1.html">Analisi I</a></li>
+        <li><a id="analisi" href="../../Analisi2.html">Analisi II</a></li>
+      </ul> 
+    </li>
+
+    <li> <a id="fisics" href="../../Fisica.html"> Fisica </a>
+      <ul> 
+        <li><a id="fisica" href="../../Fisica1.html">Fisica I</a></li>
+        <li><a id="fisica" href="../../Fisica2.html">Fisica II</a></li>
+      </ul> 
+    </li>
+
+    <li> 
+      <a id="altro"href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a id="chisiamo" href="../../Chi_siamo.html" > Chi siamo </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+
+    <li> 
+      <a id="contatti" href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+   
+  </ul>
+</div> 
+
+
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--********************-->
+<!--*****QUI INIZIA*****-->
+<!--barra di navigazione-->
+<!--********************-->
+<!--
+<form id="search_form" action="/Matematica.html" method="post">
+  <input id="search" type="text" list="suggestion" size="30px" name="keyword" placeholder=" Search...">
+    <datalist id="suggestion">
+     <option>Matematica</option>
+      <option>AnalisiI</option>
+      <option>AnalisiII</option>
+      <option>Fisica</option>
+      <option>FisicaI</option>
+      <option>FisicaII</option>
+    </datalist>
+</form>
+
+-->
+
+<!--
+
+<div class="wrapper2">
+  <img href="#" class="position" id="searchicon" src="/images/outline_search_black_24dp.png">
+</div>
+-->
+
+
+
+
+
+
+<!--tasto info-->
+<div class="wrapper2">
+  <a href="../../privacy.html" TARGET="new target"><img class="position" id="accedi"  src="../../images/help_black_24dpv2.svg"></a>
+</div>
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL MENU2 -->
+<!-- ********************************-->
+<div id="hormenu2">
+  <ul >  
+
+    <li> 
+      <a id="home" href="../../index.html">Home </a> 
+    </li>
+
+    <li> 
+      <a id="Matematica" href="../../Matematica.html"> Matematica </a>      
+    </li>
+
+    <li> 
+      <a  href="../../Fisica.html"> Fisica </a>
+    </li>
+
+    <li> 
+      <a  href="../../Altro.html" > Altro</a>
+    </li>
+
+    <li> 
+      <a class="chi_siamo" href="../../Chi_siamo.html" > Chi&nbspsiamo</a>
+    </li>
+
+
+
+    <li> 
+      <a  href="../../Contatti.html" > Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+    </li>
+    
+  </ul>
+</div>  
+
+
+
+
+
+<!--hamburger-->
+<a  href="javascript:void(0);" onclick="myFunction()" class="icon" > <img class="position" id="hamburger" src="../../images/outline_menu_black_24dp.png"></a>
+ 
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("hormenu2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+</script>
+<!-- ********************************-->
+<!-- QUI FINISCE IL MENU2 -->
+<!-- ********************************-->
+
+
+
+
+<!-- *******************************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--DA QUI INIZIA IL CORPO DELLA PAGINA -->
+<!-- ********************************-->
+
+<body style="background-color:rgba(0, 0, 0, 0)">
+  
+
+    <center>
+        <br>
+        <hr>
+        <h2 style=" margin: 20px;">Campo Elettrostatico</h2>
+        <hr>
+        <br>
+      </center>
+
+
+<p>Per introdurre il concetto di campo elettrostatico è necessario esporre il 
+  <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">PRINCIPIO DI SOVRAPPOSIZIONE FRA FORZE</b>:
+"Le forze agenti su una carica \( q_0 \)  dovute alle cariche circostanti, si sommano come vettori"; cioè:
+</p>
+
+
+
+
+
+<p id= "formula1" style="color:rgb(0, 0, 0);">
+\begin{aligned}
+\overrightarrow{F}&=\sum_i \overrightarrow{F_i} =\\
+ &= \overrightarrow{F_1}+\overrightarrow{F_2} + \hspace{0.1cm}... \hspace{0.1cm}+ \overrightarrow{F_n} =\\
+ &=\frac{1}{4\pi\epsilon_0} \frac{q_{1} q_{0}}{{r_1}^2} \hat{u_1} +  \frac{1}{4\pi\epsilon_0} \frac{q_{2} q_{0}}{{r_2}^2} \hat{u_2} +\hspace{0.1cm} ... \hspace{0.1cm}+  \frac{1}{4\pi\epsilon_0} \frac{q_{n} q_{0}}{{r_n}^2} \hat{u_n}
+ \end{aligned}
+
+</p>
+
+
+
+  <center>
+    <img src="../../images/sovrapposizione_forze.svg" width="40%" alt="Not found!">
+  </center>
+
+
+
+
+
+<p>
+A questo punto si può definire il <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">CAMPO ELETTRICO (\(\overrightarrow{E}\))</b> come:
+</p>
+
+<p id= "formula1" style="color:rgb(0, 0, 0);">
+$$ \overrightarrow{E}= \frac{\overrightarrow{F}}{q_0} \hspace{1cm} \Longrightarrow \hspace{1cm} \ \overrightarrow{E}= \frac{\sum_n\frac{1}{4\pi\epsilon_0} \frac{q_{n} q_{0}}{{r_n}^2}}{q_0}\hat{u_n} = \sum_n\frac{1}{4\pi\epsilon_0} \frac{q_{n}}{{r_n}^2}\hat{u_n}$$
+</p>
+
+
+<p>
+  cioè come un campo prodotto in un punto P da un'insieme di cariche ferme, la cui forza elettrostatica risultante F, 
+  che agisce sulla carica di pova \( q_0 \), è divisa per la carica di prova stessa.
+  
+
+
+
+
+ 
+    <br>(L'unità di misura del campo elettrostatico è il Newton/Coulumb \( [\frac {N}{C}]\) oppure il volt/metro \( [\frac {V}{m}]\)).
+    </p>
+
+<br>
+
+    <p>
+      Come si può osservare dalla figura in basso, il campo elettrostatico prodotto da una carica puntiforme \( q_1 \) in un punto P
+     è dato dalla diversa natura della carica elettrica stessa:
+    </p>
+
+
+
+    <p style="color:rgb(0, 0, 0);">
+      $$  \overrightarrow{E} = \frac{1}{4\pi\epsilon_0} \frac{q_{1}}{{r_1}^2} \hat{u_1} $$
+    </p>
+
+
+   
+      <center>
+        <img src="../../images/campo_elettrostatico.svg" width="40%" alt="Not found!">
+      </center>
+    
+
+
+    
+    <p>
+      si deduce quindi che:
+    </p>
+    <p>
+      I)Se \( q_1 \) è <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">POSITIVA</b> allora il campo generato è <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">USCENTE</b>
+    </p>
+    <p>
+      II)Se \( q_1 \) è <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">NEGATIVA</b> allora il campo generato è <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">ENTRANTE</b>
+    </p>
+
+    <br><br>
+
+    <p>
+      Estendendo questo concetto a più cariche puntiformi si ottiene:
+    </p>
+
+    <p style="color:rgb(0, 0, 0);">
+      $$  \overrightarrow{E} =  \sum_i \frac{1}{4\pi\epsilon_0} \frac{q_{i}}{{r_i}^2} \hat{u_i} $$
+    </p>
+
+    <p>
+      da cui è facile dedurre che il campo elettrstatico in un punto P, prodotto da un sistema discreto di cariche, è uguale alla somma di tutti i campi elettrostatici
+      prodotti singolarmente dalle cariche; perciò deve risultare vero che: 
+    </p>
+
+
+    <p style="color:rgb(0, 0, 0);">
+      $$  \overrightarrow{F}(x,y,z)=q_{0} \overrightarrow{E}(x,y,z) $$
+    </p>   
+
+  
+    <br><br><br><br><hr><br><br>
+
+
+  <h2 style="font-size: 170%; margin: 20px;">CAMPO ELETTROSTATICO GENERATO DA DISTRIBUZIONI DI CARICA</h2>
+
+  <br><br>
+  <p>
+    Supponendo ora di avere un corpo \(C\) e un elemento \(dq\) di carica del corpo stesso nel punto \(P'(x',y',z')\) si evidenzia il contributo al campo elettrostatico
+    dell'elemento \(dq\), cioè \(dE\) (in rosso nella figura sottostante):
+  </p>
+
+  <p style="color:rgb(0, 0, 0);">
+    $$ \overrightarrow{dE} = \frac{dq}{4\pi\epsilon_{0} r'^2} \hat{u'} $$
+  </p> 
+
+  <p>
+      Se si vuole determinare il campo elettico complessivo, esso sarà uguale alla somma fra tutti i contributi dei singoli \(dq\) che formano il corpo \(C\);
+      per sommare tutti i contributi infinitesimi si usa l'integrazione: 
+  </p>
+
+  <p style="color:rgb(0, 0, 0);">
+    $$  \overrightarrow{E}=\int  {\frac{1}{4\pi\epsilon_{0}}  \frac{dq}{r'^2} \hat{u'}} =\frac{1}{4\pi\epsilon_{0}} \int {\frac{dq}{r'^2}}\hat{u'} $$
+  </p> 
+
+
+   
+  <center>
+    <img src="../../images/campo_distribuzione_carica.svg" width="40%" alt="Not found!">
+  </center>
+<br><br>
+
+  <p> 
+    N.B.: in associazione al concetto di distribuzione di carica si può definire il concetto di <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">DENSITA' DELLA CARICA ELETTRICA</b>
+    che può essere:
+  </p>
+
+  <p style="color:rgb(0, 0, 0);"> 
+    <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">I)DENSITA' LINEARE DI CARICA</b> $$  \lambda=\frac{dq}{dl} \hspace{2cm} \left[\frac{C}{m}\right] $$
+  </p>
+
+  <p style="color:rgb(0, 0, 0);"> 
+    <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">II)DENSITA' SUPERFICIALE DI CARICA</b> $$  \sigma=\frac{dq}{d\Sigma} \hspace{2cm} \left[\frac{C}{m^2}\right]$$
+  </p>
+
+  <p style="color:rgb(0, 0, 0);"> 
+     <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">III)DENSITA' SPAZIALE DI CARICA</b> $$  \rho=\frac{dq}{d\tau}\hspace{2cm} \left[\frac{C}{m^3}\right] $$
+  
+  </p>
+
+  <p> 
+ dove ovviamente se la distribuzione è  <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">UNIFORME</b> allora si avrà:
+
+  </p>
+
+
+ <p style="color:rgb(0, 0, 0);"> 
+   $$ \lambda=k \hspace{1cm} \Longrightarrow \hspace{1cm}  \lambda=\frac{q}{dl}   $$
+</p>
+
+<p style="color:rgb(0, 0, 0);"> 
+   $$ \sigma=k \hspace{1cm}  \Longrightarrow \hspace{1cm}  \sigma=\frac{q}{d\Sigma}  $$
+
+<p style="color:rgb(0, 0, 0);"> 
+   $$ \rho=k  \hspace{1cm} \Longrightarrow \hspace{1cm}  \rho=\frac{q}{d\tau} $$
+
+</p>
+
+
+
+
+<br><br><br><br><hr><br><br>
+<h2 style="font-size: 170%; margin: 20px;">LINEE DI FORZA DEL CAMPO ELETTROSTATICO</h2>
+
+
+<br>
+<p>
+ Il campo elettrostatico è, quindi, una perturbazione dello spazio dovuta da un sistema di cariche elettriche (formato anche da una singola carica puntiforme),
+ e che viene testato da una carica di prova \(q_0\).
+</p>   
+<p>
+  Come si può osservare in figura, la diversa natura della carica determina anche il verso stesso delle <b style="color:rgb(0, 0, 0);font-family: 'Montserrat', sans-serif;">LINEE DI FORZA</b> di una singola carica e di un sistema di cariche.  
+  </p> 
+
+  <center>
+    <img src="../../images/linee_di_forza.svg" width="40%" alt="Not found!">
+  </center>
+
+
+<p>Inoltre, la distribuzione di carica determina crucialmente la struttura delle linee di forza del 
+campo elettristatico, che possono essere più fitte lì dove il campo è più intenso.<br>
+
+  Il comportamento delle linee di campo quando sono presenti due tipi di cariche elettriche di natura differente è quello nelle figure sottostante:
+</p> 
+
+<center>
+  <img src="../../images/linee_di_forza_2.svg" width="40%" alt="Not found!">
+</center>
+
+<br><br>
+<center>
+  <img src="../../images/linee_di_forza_3.svg" width="40%" alt="Not found!">
+</center>
+
+
+<p>
+Mentre se le cariche sono della stessa natura, ad esempio entrambe positive come nella figura sottostante, si avranno delle linee di forza che non si incontreranno mai:
+</p> 
+  
+
+<center>
+  <img src="../../images/linee_di_forza_4.svg" width="40%" alt="Not found!">
+</center>
+
+
+<p>
+  Per quanto concerne il campo elettrostatico tra due piani indefiniti e carichi con cariche opposte, bisogna anzitutto osservare che le linee di forza 
+  del piano caricato positvamente sono sempre uscenti, mentre quelle del piano caricato negativemente sono sempre entranti il piano stesso: 
+</p> 
+
+
+<center>
+  <img src="../../images/linee_di_forza_5.svg" width="40%" alt="Not found!">
+</center>
+
+
+<p>
+  Perciò, si ha la seguente situazione: come si può osservare, se i due piani hanno cariche opposte, quello che accade è che si formeranno due campi
+  elettrostatici tali da annullarsi all'esterno e sommarsi fra i due piani stessi. Ovviamente le linee di campo avranno verso tale da collegare
+  il piano carico positivamente con quello caricato negativamente:
+</p> 
+
+<p style="color:rgb(0, 0, 0);">
+$$\overrightarrow{E_x} =
+\begin{cases}
+\overrightarrow{0},  & x  < x_1 \\[2ex]
+\frac{\sigma}{\epsilon_0}, &  x_1 < x  < x_2 \\[2ex]
+\overrightarrow{0},  & x  > x_2 x_1 \\[2ex]
+\end{cases}$$
+</p> 
+
+<center>
+  <img src="../../images/linee_di_forza_6.svg" width="40%" alt="Not found!">
+</center>
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+
+<!-- ********************************-->
+<!--QUI E' FINITA LA PAGINA -->
+<!-- ********************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ********************************-->
+<!--QUI INIZIA IL PIE' PAGINA -->
+<!-- ********************************-->
+
+
+
+<footer style="background-color:#3d5a8000"> 
+
+  <hr>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+
+      <a href="../../index.html"><img  style=" position: relative; z-index: 999; width: 220px; top: -50px;" src="../../images/Logicamente.svg" ></a>
+      <!--LOGOSOTTO-->
+
+
+    <h3 style="font-family: 'Montserrat'; position: relative; top: -30px;">Se ti è piaciuta la lezione puoi condividerla su:</h3>
+    </center>
+
+  
+      
+           
+    <div class="share-btn-container">
+
+      <a id="facebook" href="#" class="facebook-btn"> 
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a id="twitter" href="#"class="twitter-btn"> 
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a id="instagram" href="#"class="instagram-btn"> 
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a id="telegram" href="https://telegram.me/share/url?url=" onclick="window.open('https://telegram.me/share/url?url=='+encodeURIComponent(location.href)+'&bodytext=&tags=&text='+encodeURIComponent(document.title));return false;"rel="nofollow" title="invia con telegram">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a id="whatsapp"href="#"class="whatsapp-btn"> 
+        <i class="fab fa-whatsapp"></i>
+      </a>
+  
+    </div>
+
+   
+ <!--
+  <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-share-url="https://core.telegram.org/widgets/share"></script>
+ -->
+ 
+  <script src="main.js"></script>
+
+
+
+
+  <div class="hormenufooter">
+    <ul >  
+  
+      <li> 
+        <a id="home" href="../../index.html">Home </a> 
+      </li>
+  
+      <li> 
+        <a id="altro"href="../../Altro.html" > Altro</a>
+      </li>
+  
+      <li> 
+        <a id="contatti" href="../../Contatti.html"> Contatti </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+      <li> 
+        <a id="termini_condizioni" href="../../termini_condizioni.html" TARGET="new target">  Termini&nbspe&nbspcondizioni </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+      <li> 
+        <a id="privacy_policy" href="../../privacy.html" TARGET="new target">  Privacy&nbspPolicy </a> <!--la pagina web "Contatti.html" viene aperta in un'altra scheda attraverso il TARGET -->    
+      </li>
+
+
+    </ul>
+  </div> 
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+</html>
